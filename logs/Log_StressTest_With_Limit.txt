@@ -1,0 +1,1817 @@
+
+===============================================
+GRS v1.0 - Gestor de Recursos del Sistema        
+"Deterministic Architecture of Linked Memories"
+Copyright © 2026 Marcos Eugenio Gorostegui       
+Non-Commercial Use and Evaluation License.       
+All rights reserved.                             
+===============================================
+
+THE BASE MEMORY OF 1.9 KB (METADATA INCLUDED) ADDRESS: 0x000001C69CC30000 WAS CREATED SUCCESSFULLY.
+
+SENTINEL
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30000	A:0	I:0	T[80.000000 B]	F:79	S:80
+
+Instance name: StressTest
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30050	A:0	I:80	T[48.000000 B]	F:127	S:0
+
+INDEX TABLE
+
+ENTER BLOCK: in Memory 1 Address: 0x000001C69CC30000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30080	A:80	I:128	T[336.000000 B]	F:463	S:0
+	0 gap(s) found with a fragmentation of 0.000000 B.
+	At the end of the Memory there are free(s) 1.500000 KB.
+	And 1 block(s) out of a total of 1 block(s) present in the system.
+	THE INDEX TABLE 1 ADDRESS: 0x000001C69CC30080 WAS CREATED SUCCESSFULLY.
+
+WHAT WAS HIS NAME? StressTest
+
+--------------------------
+ENTER NEW DATA INTO MEMORY
+--------------------------
+
+
+ENTER BLOCK: in Memory 1 Address: 0x000001C69CC30000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC301D0	A:128	I:464	T[96.000000 B]	F:559	S:0
+	0 gap(s) found with a fragmentation of 0.000000 B.
+	At the end of the Memory there are free(s) 1.406250 KB.
+	And 2 block(s) out of a total of 2 block(s) present in the system.
+
+ENTER BLOCK: in Memory 1 Address: 0x000001C69CC30000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30230	A:464	I:560	T[1.062500 KB]	F:1647	S:0
+	0 gap(s) found with a fragmentation of 0.000000 B.
+	At the end of the Memory there are free(s) 352.000000 B.
+	And 3 block(s) out of a total of 3 block(s) present in the system.
+
+ENTER BLOCK: in Memory 1 Address: 0x000001C69CC30000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30670	A:560	I:1648	T[128.000000 B]	F:1775	S:0
+	0 gap(s) found with a fragmentation of 0.000000 B.
+	At the end of the Memory there are free(s) 224.000000 B.
+	And 4 block(s) out of a total of 4 block(s) present in the system.
+
+ENTER BLOCK: in Memory 1 Address: 0x000001C69CC30000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC306F0	A:1648	I:1776	T[96.000000 B]	F:1871	S:0
+	0 gap(s) found with a fragmentation of 0.000000 B.
+	At the end of the Memory there are free(s) 128.000000 B.
+	And 5 block(s) out of a total of 5 block(s) present in the system.
+
+CAUTION: insufficient Memory space 1 Address: 0x000001C69CC30000.
+	A new memory of 1.953125 KB will be created.
+	MEMORY 2 ADDRESS 0x000001C69CC40000 WAS CREATED SUCCESSFULLY.
+
+ENTER BLOCK: in Memory 2 Address: 0x000001C69CC40000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC40050	A:0	I:80	T[1.062500 KB]	F:1167	S:0
+	0 gap(s) found with a fragmentation of 0.000000 B.
+	At the end of the Memory there are free(s) 832.000000 B.
+	And 1 block(s) out of a total of 6 block(s) present in the system.
+
+ENTER BLOCK: in Memory 1 Address: 0x000001C69CC30000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30750	A:1776	I:1872	T[128.000000 B]	F:1999	S:0
+	0 gap(s) found with a fragmentation of 0.000000 B.
+	At the end of the Memory there are free(s) 0.000000 B.
+	And 6 block(s) out of a total of 7 block(s) present in the system.
+
+ENTER BLOCK: in Memory 2 Address: 0x000001C69CC40000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC40490	A:80	I:1168	T[96.000000 B]	F:1263	S:0
+	0 gap(s) found with a fragmentation of 0.000000 B.
+	At the end of the Memory there are free(s) 736.000000 B.
+	And 2 block(s) out of a total of 8 block(s) present in the system.
+
+CAUTION: insufficient space in the Index Table 1 in Memory 1 Address: 0x000001C69CC30080.
+	A table will be created with double (20) its current index capacity (10).
+
+ENTER BLOCK: in Memory 2 Address: 0x000001C69CC40000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC404F0	A:1168	I:1264	T[576.000000 B]	F:1839	S:0
+	0 gap(s) found with a fragmentation of 0.000000 B.
+	At the end of the Memory there are free(s) 160.000000 B.
+	And 3 block(s) out of a total of 9 block(s) present in the system.
+	THE INDEX TABLE 2 ADDRESS: 0x000001C69CC404F0 WAS CREATED SUCCESSFULLY.
+
+	Delete the previous index table:
+
+DELETE BLOCK: Table Index 10 in Memory 1 Address: 0x000001C69CC30000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30080	A:80	I:128	T[336.000000 B]	F:463	S:464
+	The block left a gap of 336.000000 B in the middle of 2 active blocks.
+	1 gap(s) found with a fragmentation of 336.000000 B.
+	At the end of the Memory there are free(s) 0.000000 B.
+	And 5 block(s) out of a total of 8 block(s) present in the system.
+
+CAUTION: insufficient Memory space 2 Address: 0x000001C69CC40000.
+	A new memory of 1.953125 KB will be created.
+	MEMORY 3 ADDRESS 0x000001C69CC50000 WAS CREATED SUCCESSFULLY.
+
+ENTER BLOCK: in Memory 3 Address: 0x000001C69CC50000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC50050	A:0	I:80	T[1.062500 KB]	F:1167	S:0
+	0 gap(s) found with a fragmentation of 0.000000 B.
+	At the end of the Memory there are free(s) 832.000000 B.
+	And 1 block(s) out of a total of 9 block(s) present in the system.
+
+FILL GAP: the 128.000000 B block goes into the 336.000000 B gap.
+
+	ENTER BLOCK: in Memory 1 Address 0x000001C69CC30000.
+	The gap was not eliminated but was reduced to 208.000000 B after the entry.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30080	A:80	I:128	T[128.000000 B]	F:255	S:464
+	1 gap(s) found with a fragmentation of 208.000000 B.
+	At the end of the Memory there are free(s) 0.000000 B.
+	And 6 block(s) out of a total of 10 block(s) present in the system.
+
+FILL GAP: the 96.000000 B block goes into the 208.000000 B gap.
+
+	ENTER BLOCK: in Memory 1 Address 0x000001C69CC30000.
+	The gap was not eliminated but was reduced to 112.000000 B after the entry.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30100	A:128	I:256	T[96.000000 B]	F:351	S:464
+	1 gap(s) found with a fragmentation of 112.000000 B.
+	At the end of the Memory there are free(s) 0.000000 B.
+	And 7 block(s) out of a total of 11 block(s) present in the system.
+
+CAUTION: insufficient Memory space 3 Address: 0x000001C69CC50000.
+	A new memory of 1.953125 KB will be created.
+	MEMORY 4 ADDRESS 0x000001C69CC60000 WAS CREATED SUCCESSFULLY.
+
+ENTER BLOCK: in Memory 4 Address: 0x000001C69CC60000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC60050	A:0	I:80	T[1.062500 KB]	F:1167	S:0
+	0 gap(s) found with a fragmentation of 0.000000 B.
+	At the end of the Memory there are free(s) 832.000000 B.
+	And 1 block(s) out of a total of 12 block(s) present in the system.
+
+ENTER BLOCK: in Memory 2 Address: 0x000001C69CC40000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC40730	A:1264	I:1840	T[128.000000 B]	F:1967	S:0
+	0 gap(s) found with a fragmentation of 0.000000 B.
+	At the end of the Memory there are free(s) 32.000000 B.
+	And 4 block(s) out of a total of 13 block(s) present in the system.
+
+FILL GAP: the 96.000000 B block goes into the 112.000000 B gap.
+
+	ENTER BLOCK: in Memory 1 Address 0x000001C69CC30000.
+	The gap was not eliminated but was reduced to 16.000000 B after the entry.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30160	A:256	I:352	T[96.000000 B]	F:447	S:464
+	1 gap(s) found with a fragmentation of 16.000000 B.
+	At the end of the Memory there are free(s) 0.000000 B.
+	And 8 block(s) out of a total of 14 block(s) present in the system.
+
+CAUTION: insufficient Memory space 4 Address: 0x000001C69CC60000.
+	A new memory of 1.953125 KB will be created.
+	MEMORY 5 ADDRESS 0x000001C69CC70000 WAS CREATED SUCCESSFULLY.
+
+ENTER BLOCK: in Memory 5 Address: 0x000001C69CC70000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC70050	A:0	I:80	T[1.062500 KB]	F:1167	S:0
+	0 gap(s) found with a fragmentation of 0.000000 B.
+	At the end of the Memory there are free(s) 832.000000 B.
+	And 1 block(s) out of a total of 15 block(s) present in the system.
+
+ENTER BLOCK: in Memory 3 Address: 0x000001C69CC50000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC50490	A:80	I:1168	T[128.000000 B]	F:1295	S:0
+	0 gap(s) found with a fragmentation of 0.000000 B.
+	At the end of the Memory there are free(s) 704.000000 B.
+	And 2 block(s) out of a total of 16 block(s) present in the system.
+
+CAUTION: insufficient space in the Index Table 2 in Memory 2 Address: 0x000001C69CC404F0.
+	A table will be created with double (40) its current index capacity (20).
+
+CAUTION: insufficient Memory space 5 Address: 0x000001C69CC70000.
+	A new memory of 1.953125 KB will be created.
+	MEMORY 6 ADDRESS 0x000001C69CC80000 WAS CREATED SUCCESSFULLY.
+
+ENTER BLOCK: in Memory 6 Address: 0x000001C69CC80000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC80050	A:0	I:80	T[1.031250 KB]	F:1135	S:0
+	0 gap(s) found with a fragmentation of 0.000000 B.
+	At the end of the Memory there are free(s) 864.000000 B.
+	And 1 block(s) out of a total of 17 block(s) present in the system.
+	THE INDEX TABLE 3 ADDRESS: 0x000001C69CC80050 WAS CREATED SUCCESSFULLY.
+
+	Delete the previous index table:
+
+DELETE BLOCK: Table Index 20 in Memory 2 Address: 0x000001C69CC40000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC404F0	A:1168	I:1264	T[576.000000 B]	F:1839	S:1840
+	The block left a gap of 576.000000 B in the middle of 2 active blocks.
+	1 gap(s) found with a fragmentation of 576.000000 B.
+	At the end of the Memory there are free(s) 32.000000 B.
+	And 3 block(s) out of a total of 16 block(s) present in the system.
+
+FILL GAP: the 96.000000 B block goes into the 576.000000 B gap.
+
+	ENTER BLOCK: in Memory 2 Address 0x000001C69CC40000.
+	The gap was not eliminated but was reduced to 480.000000 B after the entry.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC404F0	A:1168	I:1264	T[96.000000 B]	F:1359	S:1840
+	1 gap(s) found with a fragmentation of 480.000000 B.
+	At the end of the Memory there are free(s) 32.000000 B.
+	And 4 block(s) out of a total of 17 block(s) present in the system.
+
+CAUTION: insufficient Memory space 6 Address: 0x000001C69CC80000.
+	A new memory of 1.953125 KB will be created.
+	MEMORY 7 ADDRESS 0x000001C69CC90000 WAS CREATED SUCCESSFULLY.
+
+ENTER BLOCK: in Memory 7 Address: 0x000001C69CC90000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC90050	A:0	I:80	T[1.062500 KB]	F:1167	S:0
+	0 gap(s) found with a fragmentation of 0.000000 B.
+	At the end of the Memory there are free(s) 832.000000 B.
+	And 1 block(s) out of a total of 18 block(s) present in the system.
+
+FILL GAP: the 128.000000 B block goes into the 480.000000 B gap.
+
+	ENTER BLOCK: in Memory 2 Address 0x000001C69CC40000.
+	The gap was not eliminated but was reduced to 352.000000 B after the entry.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC40550	A:1264	I:1360	T[128.000000 B]	F:1487	S:1840
+	1 gap(s) found with a fragmentation of 352.000000 B.
+	At the end of the Memory there are free(s) 32.000000 B.
+	And 5 block(s) out of a total of 19 block(s) present in the system.
+
+FILL GAP: the 96.000000 B block goes into the 352.000000 B gap.
+
+	ENTER BLOCK: in Memory 2 Address 0x000001C69CC40000.
+	The gap was not eliminated but was reduced to 256.000000 B after the entry.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC405D0	A:1360	I:1488	T[96.000000 B]	F:1583	S:1840
+	1 gap(s) found with a fragmentation of 256.000000 B.
+	At the end of the Memory there are free(s) 32.000000 B.
+	And 6 block(s) out of a total of 20 block(s) present in the system.
+
+CAUTION: insufficient Memory space 7 Address: 0x000001C69CC90000.
+	A new memory of 1.953125 KB will be created.
+	MEMORY 8 ADDRESS 0x000001C69CCA0000 WAS CREATED SUCCESSFULLY.
+
+ENTER BLOCK: in Memory 8 Address: 0x000001C69CCA0000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CCA0050	A:0	I:80	T[1.062500 KB]	F:1167	S:0
+	0 gap(s) found with a fragmentation of 0.000000 B.
+	At the end of the Memory there are free(s) 832.000000 B.
+	And 1 block(s) out of a total of 21 block(s) present in the system.
+
+FILL GAP: the 128.000000 B block goes into the 256.000000 B gap.
+
+	ENTER BLOCK: in Memory 2 Address 0x000001C69CC40000.
+	The gap was not eliminated but was reduced to 128.000000 B after the entry.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC40630	A:1488	I:1584	T[128.000000 B]	F:1711	S:1840
+	1 gap(s) found with a fragmentation of 128.000000 B.
+	At the end of the Memory there are free(s) 32.000000 B.
+	And 7 block(s) out of a total of 22 block(s) present in the system.
+
+FILL GAP: the 96.000000 B block goes into the 128.000000 B gap.
+
+	ENTER BLOCK: in Memory 2 Address 0x000001C69CC40000.
+	The gap was not eliminated but was reduced to 32.000000 B after the entry.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC406B0	A:1584	I:1712	T[96.000000 B]	F:1807	S:1840
+	1 gap(s) found with a fragmentation of 32.000000 B.
+	At the end of the Memory there are free(s) 32.000000 B.
+	And 8 block(s) out of a total of 23 block(s) present in the system.
+
+-----------------------------------------
+TEST LIMIT OF 16 KB (16384 bytes) REACHED
+-----------------------------------------
+
+----------------------------------------------------
+THE BLOCK IS TOO LARGE FOR THE CURRENT CONFIGURATION
+----------------------------------------------------
+
+ENTER BLOCK: in Memory 3 Address: 0x000001C69CC50000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC50510	A:1168	I:1296	T[128.000000 B]	F:1423	S:0
+	0 gap(s) found with a fragmentation of 0.000000 B.
+	At the end of the Memory there are free(s) 576.000000 B.
+	And 3 block(s) out of a total of 24 block(s) present in the system.
+
+ENTER BLOCK: in Memory 3 Address: 0x000001C69CC50000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC50590	A:1296	I:1424	T[96.000000 B]	F:1519	S:0
+	0 gap(s) found with a fragmentation of 0.000000 B.
+	At the end of the Memory there are free(s) 480.000000 B.
+	And 4 block(s) out of a total of 25 block(s) present in the system.
+
+-----------------------------------------
+TEST LIMIT OF 16 KB (16384 bytes) REACHED
+-----------------------------------------
+
+----------------------------------------------------
+THE BLOCK IS TOO LARGE FOR THE CURRENT CONFIGURATION
+----------------------------------------------------
+
+ENTER BLOCK: in Memory 3 Address: 0x000001C69CC50000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC505F0	A:1424	I:1520	T[128.000000 B]	F:1647	S:0
+	0 gap(s) found with a fragmentation of 0.000000 B.
+	At the end of the Memory there are free(s) 352.000000 B.
+	And 5 block(s) out of a total of 26 block(s) present in the system.
+
+ENTER BLOCK: in Memory 3 Address: 0x000001C69CC50000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC50670	A:1520	I:1648	T[96.000000 B]	F:1743	S:0
+	0 gap(s) found with a fragmentation of 0.000000 B.
+	At the end of the Memory there are free(s) 256.000000 B.
+	And 6 block(s) out of a total of 27 block(s) present in the system.
+
+-----------------------------------------
+TEST LIMIT OF 16 KB (16384 bytes) REACHED
+-----------------------------------------
+
+----------------------------------------------------
+THE BLOCK IS TOO LARGE FOR THE CURRENT CONFIGURATION
+----------------------------------------------------
+
+ENTER BLOCK: in Memory 3 Address: 0x000001C69CC50000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC506D0	A:1648	I:1744	T[128.000000 B]	F:1871	S:0
+	0 gap(s) found with a fragmentation of 0.000000 B.
+	At the end of the Memory there are free(s) 128.000000 B.
+	And 7 block(s) out of a total of 28 block(s) present in the system.
+
+------------------------
+BUFFER SHOW INDIVIDUALLY
+------------------------
+[0][1][2][3][4][5][6][7][8][9][10][11][12][13][14][15][16][17][18][19][20][21][22][23][24][25][26][27][28][29][30][31][32][33][34][35][36][37][38][39][40][41][42][43][44][45][46][47][48][49][50][51][52][53][54][55][56][57][58][59][60][61][62][63][64][65][66][67][68][69][70][71][72][73][74][75][76][77][78][79][80][81][82][83][84][85][86][87][88][89][90][91][92][93][94][95][96][97][98][99][100][101][102][103][104][105][106][107][108][109][110][111][112][113][114][115][116][117][118][119][120][121][122][123][124][125][126][127][128][129][130][131][132][133][134][135][136][137][138][139][140][141][142][143][144][145][146][147][148][149][150][151][152][153][154][155][156][157][158][159][160][161][162][163][164][165][166][167][168][169][170][171][172][173][174][175][176][177][178][179][180][181][182][183][184][185][186][187][188][189][190][191][192][193][194][195][196][197][198][199][200][201][202][203][204][205][206][207][208][209][210][211][212][213][214][215][216][217][218][219][220][221][222][223][224][225][226][227][228][229][230][231][232][233][234][235][236][237][238][239][240][241][242][243][244][245][246][247][248][249][250][251][252][253][254][255]
+
+
+ENTER BLOCK: in Memory 4 Address: 0x000001C69CC60000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC60490	A:80	I:1168	T[136.000000 B]	F:1303	S:0
+	0 gap(s) found with a fragmentation of 0.000000 B.
+	At the end of the Memory there are free(s) 696.000000 B.
+	And 2 block(s) out of a total of 29 block(s) present in the system.
+
+60.0
+
+----------------------------------------------------
+THE BLOCK IS TOO LARGE FOR THE CURRENT CONFIGURATION
+----------------------------------------------------
+
+THE IDENTIFIER DID NOT CHANGE
+
+---------------
+INVALID ADDRESS
+---------------
+
+ENTER BLOCK: in Memory 4 Address: 0x000001C69CC60000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC60518	A:1168	I:1304	T[144.000000 B]	F:1447	S:0
+	0 gap(s) found with a fragmentation of 0.000000 B.
+	At the end of the Memory there are free(s) 552.000000 B.
+	And 3 block(s) out of a total of 30 block(s) present in the system.
+
+WHAT IS MY KEY? Second Coming
+Second Coming WITH A LENGTH OF  CHARACTERS.
+AND DATA ENTERED: [0][1][2][3][4][5][6][7]
+WE CHANGED THE KEY
+BETTER WITH A LONGER ONE?
+
+------------------
+SHOW MEMORY STATUS
+------------------n
+
+ADDRESS BLOCKS: 	[0x000001C69CC301D0]	[0x000001C69CC30230]	[0x000001C69CC30670]	[0x000001C69CC306F0]	[0x000001C69CC40050]	[0x000001C69CC30750]	[0x000001C69CC40490]	[0x000001C69CC50050]	[0x000001C69CC30080]	[0x000001C69CC30100]	[0x000001C69CC60050]	[0x000001C69CC40730]	[0x000001C69CC30160]	[0x000001C69CC70050]	[0x000001C69CC50490]	[0x000001C69CC404F0]	[0x000001C69CC90050]	[0x000001C69CC40550]	[0x000001C69CC405D0]	[0x000001C69CCA0050]	[0x000001C69CC40630]	[0x000001C69CC406B0]	[0x000001C69CC50510]	[0x000001C69CC50590]	[0x000001C69CC505F0]	[0x000001C69CC50670]	[0x000001C69CC506D0]	[0x000001C69CC60490]	[0x000001C69CC60518]	[0x000001C69CC80050]
+
+GAP ADDRESS: 	[0x000001C69CC30160]	[0x000001C69CC406B0]
+
+	BLOCK STATISTICS:
+	Table index 0 in Memory 1 Address 0x000001C69CC301D0.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC301D0	A:352	I:464	T[96.000000 B]	F:559	S:560
+
+		T[96] "0" {  [0][1][2][3][4][5][6][7]   }
+
+	BLOCK STATISTICS:
+	Table index 1 in Memory 1 Address 0x000001C69CC30230.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30230	A:464	I:560	T[1.062500 KB]	F:1647	S:1648
+
+		T[1088] "1" {  [0][1][2][3][4][5][6][7][8][9][10][11][12][13][14][15][16][17][18][19][20][21][22][23][24][25][26][27][28][29][30][31][32][33][34][35][36][37][38][39][40][41][42][43][44][45][46][47][48][49][50][51][52][53][54][55][56][57][58][59][60][61][62][63][64][65][66][67][68][69][70][71][72][73][74][75][76][77][78][79][80][81][82][83][84][85][86][87][88][89][90][91][92][93][94][95][96][97][98][99][100][101][102][103][104][105][106][107][108][109][110][111][112][113][114][115][116][117][118][119][120][121][122][123][124][125][126][127][128][129][130][131][132][133][134][135][136][137][138][139][140][141][142][143][144][145][146][147][148][149][150][151][152][153][154][155][156][157][158][159][160][161][162][163][164][165][166][167][168][169][170][171][172][173][174][175][176][177][178][179][180][181][182][183][184][185][186][187][188][189][190][191][192][193][194][195][196][197][198][199][200][201][202][203][204][205][206][207][208][209][210][211][212][213][214][215][216][217][218][219][220][221][222][223][224][225][226][227][228][229][230][231][232][233][234][235][236][237][238][239][240][241][242][243][244][245][246][247][248][249][250][251][252][253][254][255]   }
+
+	BLOCK STATISTICS:
+	Table index 2 in Memory 1 Address 0x000001C69CC30670.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30670	A:560	I:1648	T[128.000000 B]	F:1775	S:1776
+
+		T[128] "2" {  [0.100][0.200][0.300][0.400][0.500][0.600][0.700][0.800]   }
+
+	BLOCK STATISTICS:
+	Table index 3 in Memory 1 Address 0x000001C69CC306F0.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC306F0	A:1648	I:1776	T[96.000000 B]	F:1871	S:1872
+
+		T[96] "3" {  [0][1][2][3][4][5][6][7]   }
+
+	BLOCK STATISTICS:
+	Table index 4 in Memory 2 Address 0x000001C69CC40050.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC40050	A:0	I:80	T[1.062500 KB]	F:1167	S:1168
+
+		T[1088] "4" {  [0][1][2][3][4][5][6][7][8][9][10][11][12][13][14][15][16][17][18][19][20][21][22][23][24][25][26][27][28][29][30][31][32][33][34][35][36][37][38][39][40][41][42][43][44][45][46][47][48][49][50][51][52][53][54][55][56][57][58][59][60][61][62][63][64][65][66][67][68][69][70][71][72][73][74][75][76][77][78][79][80][81][82][83][84][85][86][87][88][89][90][91][92][93][94][95][96][97][98][99][100][101][102][103][104][105][106][107][108][109][110][111][112][113][114][115][116][117][118][119][120][121][122][123][124][125][126][127][128][129][130][131][132][133][134][135][136][137][138][139][140][141][142][143][144][145][146][147][148][149][150][151][152][153][154][155][156][157][158][159][160][161][162][163][164][165][166][167][168][169][170][171][172][173][174][175][176][177][178][179][180][181][182][183][184][185][186][187][188][189][190][191][192][193][194][195][196][197][198][199][200][201][202][203][204][205][206][207][208][209][210][211][212][213][214][215][216][217][218][219][220][221][222][223][224][225][226][227][228][229][230][231][232][233][234][235][236][237][238][239][240][241][242][243][244][245][246][247][248][249][250][251][252][253][254][255]   }
+
+	BLOCK STATISTICS:
+	Table index 5 in Memory 1 Address 0x000001C69CC30750.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30750	A:1776	I:1872	T[128.000000 B]	F:1999	S:0
+
+		T[128] "5" {  [0.100][0.200][0.300][0.400][0.500][0.600][0.700][0.800]   }
+
+	BLOCK STATISTICS:
+	Table index 6 in Memory 2 Address 0x000001C69CC40490.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC40490	A:80	I:1168	T[96.000000 B]	F:1263	S:1264
+
+		T[96] "6" {  [0][1][2][3][4][5][6][7]   }
+
+	BLOCK STATISTICS:
+	Table index 7 in Memory 3 Address 0x000001C69CC50050.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC50050	A:0	I:80	T[1.062500 KB]	F:1167	S:1168
+
+		T[1088] "7" {  [0][1][2][3][4][5][6][7][8][9][10][11][12][13][14][15][16][17][18][19][20][21][22][23][24][25][26][27][28][29][30][31][32][33][34][35][36][37][38][39][40][41][42][43][44][45][46][47][48][49][50][51][52][53][54][55][56][57][58][59][60][61][62][63][64][65][66][67][68][69][70][71][72][73][74][75][76][77][78][79][80][81][82][83][84][85][86][87][88][89][90][91][92][93][94][95][96][97][98][99][100][101][102][103][104][105][106][107][108][109][110][111][112][113][114][115][116][117][118][119][120][121][122][123][124][125][126][127][128][129][130][131][132][133][134][135][136][137][138][139][140][141][142][143][144][145][146][147][148][149][150][151][152][153][154][155][156][157][158][159][160][161][162][163][164][165][166][167][168][169][170][171][172][173][174][175][176][177][178][179][180][181][182][183][184][185][186][187][188][189][190][191][192][193][194][195][196][197][198][199][200][201][202][203][204][205][206][207][208][209][210][211][212][213][214][215][216][217][218][219][220][221][222][223][224][225][226][227][228][229][230][231][232][233][234][235][236][237][238][239][240][241][242][243][244][245][246][247][248][249][250][251][252][253][254][255]   }
+
+	BLOCK STATISTICS:
+	Table index 8 in Memory 1 Address 0x000001C69CC30080.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30080	A:80	I:128	T[128.000000 B]	F:255	S:256
+
+		T[128] "8" {  [0.100][0.200][0.300][0.400][0.500][0.600][0.700][0.800]   }
+
+	BLOCK STATISTICS:
+	Table index 9 in Memory 1 Address 0x000001C69CC30100.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30100	A:128	I:256	T[96.000000 B]	F:351	S:352
+
+		T[96] "9" {  [0][1][2][3][4][5][6][7]   }
+
+	BLOCK STATISTICS:
+	Table index 10 in Memory 4 Address 0x000001C69CC60050.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC60050	A:0	I:80	T[1.062500 KB]	F:1167	S:1168
+
+		T[1088] "10" {  [0][1][2][3][4][5][6][7][8][9][10][11][12][13][14][15][16][17][18][19][20][21][22][23][24][25][26][27][28][29][30][31][32][33][34][35][36][37][38][39][40][41][42][43][44][45][46][47][48][49][50][51][52][53][54][55][56][57][58][59][60][61][62][63][64][65][66][67][68][69][70][71][72][73][74][75][76][77][78][79][80][81][82][83][84][85][86][87][88][89][90][91][92][93][94][95][96][97][98][99][100][101][102][103][104][105][106][107][108][109][110][111][112][113][114][115][116][117][118][119][120][121][122][123][124][125][126][127][128][129][130][131][132][133][134][135][136][137][138][139][140][141][142][143][144][145][146][147][148][149][150][151][152][153][154][155][156][157][158][159][160][161][162][163][164][165][166][167][168][169][170][171][172][173][174][175][176][177][178][179][180][181][182][183][184][185][186][187][188][189][190][191][192][193][194][195][196][197][198][199][200][201][202][203][204][205][206][207][208][209][210][211][212][213][214][215][216][217][218][219][220][221][222][223][224][225][226][227][228][229][230][231][232][233][234][235][236][237][238][239][240][241][242][243][244][245][246][247][248][249][250][251][252][253][254][255]   }
+
+	BLOCK STATISTICS:
+	Table index 11 in Memory 2 Address 0x000001C69CC40730.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC40730	A:1712	I:1840	T[128.000000 B]	F:1967	S:0
+
+		T[128] "11" {  [0.100][0.200][0.300][0.400][0.500][0.600][0.700][0.800]   }
+
+	BLOCK STATISTICS:
+	Table index 12 in Memory 1 Address 0x000001C69CC30160.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30160	A:256	I:352	T[96.000000 B]	F:447	S:464
+
+		T[96] "12" {  [0][1][2][3][4][5][6][7]   }
+
+	BLOCK STATISTICS:
+	Table index 13 in Memory 5 Address 0x000001C69CC70050.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC70050	A:0	I:80	T[1.062500 KB]	F:1167	S:0
+
+		T[1088] "13" {  [0][1][2][3][4][5][6][7][8][9][10][11][12][13][14][15][16][17][18][19][20][21][22][23][24][25][26][27][28][29][30][31][32][33][34][35][36][37][38][39][40][41][42][43][44][45][46][47][48][49][50][51][52][53][54][55][56][57][58][59][60][61][62][63][64][65][66][67][68][69][70][71][72][73][74][75][76][77][78][79][80][81][82][83][84][85][86][87][88][89][90][91][92][93][94][95][96][97][98][99][100][101][102][103][104][105][106][107][108][109][110][111][112][113][114][115][116][117][118][119][120][121][122][123][124][125][126][127][128][129][130][131][132][133][134][135][136][137][138][139][140][141][142][143][144][145][146][147][148][149][150][151][152][153][154][155][156][157][158][159][160][161][162][163][164][165][166][167][168][169][170][171][172][173][174][175][176][177][178][179][180][181][182][183][184][185][186][187][188][189][190][191][192][193][194][195][196][197][198][199][200][201][202][203][204][205][206][207][208][209][210][211][212][213][214][215][216][217][218][219][220][221][222][223][224][225][226][227][228][229][230][231][232][233][234][235][236][237][238][239][240][241][242][243][244][245][246][247][248][249][250][251][252][253][254][255]   }
+
+	BLOCK STATISTICS:
+	Table index 14 in Memory 3 Address 0x000001C69CC50490.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC50490	A:80	I:1168	T[128.000000 B]	F:1295	S:1296
+
+		T[128] "14" {  [0.100][0.200][0.300][0.400][0.500][0.600][0.700][0.800]   }
+
+	BLOCK STATISTICS:
+	Table index 15 in Memory 2 Address 0x000001C69CC404F0.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC404F0	A:1168	I:1264	T[96.000000 B]	F:1359	S:1360
+
+		T[96] "15" {  [0][1][2][3][4][5][6][7]   }
+
+	BLOCK STATISTICS:
+	Table index 16 in Memory 7 Address 0x000001C69CC90050.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC90050	A:0	I:80	T[1.062500 KB]	F:1167	S:0
+
+		T[1088] "16" {  [0][1][2][3][4][5][6][7][8][9][10][11][12][13][14][15][16][17][18][19][20][21][22][23][24][25][26][27][28][29][30][31][32][33][34][35][36][37][38][39][40][41][42][43][44][45][46][47][48][49][50][51][52][53][54][55][56][57][58][59][60][61][62][63][64][65][66][67][68][69][70][71][72][73][74][75][76][77][78][79][80][81][82][83][84][85][86][87][88][89][90][91][92][93][94][95][96][97][98][99][100][101][102][103][104][105][106][107][108][109][110][111][112][113][114][115][116][117][118][119][120][121][122][123][124][125][126][127][128][129][130][131][132][133][134][135][136][137][138][139][140][141][142][143][144][145][146][147][148][149][150][151][152][153][154][155][156][157][158][159][160][161][162][163][164][165][166][167][168][169][170][171][172][173][174][175][176][177][178][179][180][181][182][183][184][185][186][187][188][189][190][191][192][193][194][195][196][197][198][199][200][201][202][203][204][205][206][207][208][209][210][211][212][213][214][215][216][217][218][219][220][221][222][223][224][225][226][227][228][229][230][231][232][233][234][235][236][237][238][239][240][241][242][243][244][245][246][247][248][249][250][251][252][253][254][255]   }
+
+	BLOCK STATISTICS:
+	Table index 17 in Memory 2 Address 0x000001C69CC40550.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC40550	A:1264	I:1360	T[128.000000 B]	F:1487	S:1488
+
+		T[128] "17" {  [0.100][0.200][0.300][0.400][0.500][0.600][0.700][0.800]   }
+
+	BLOCK STATISTICS:
+	Table index 18 in Memory 2 Address 0x000001C69CC405D0.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC405D0	A:1360	I:1488	T[96.000000 B]	F:1583	S:1584
+
+		T[96] "18" {  [0][1][2][3][4][5][6][7]   }
+
+	BLOCK STATISTICS:
+	Table index 19 in Memory 8 Address 0x000001C69CCA0050.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CCA0050	A:0	I:80	T[1.062500 KB]	F:1167	S:0
+
+		T[1088] "19" {  [0][1][2][3][4][5][6][7][8][9][10][11][12][13][14][15][16][17][18][19][20][21][22][23][24][25][26][27][28][29][30][31][32][33][34][35][36][37][38][39][40][41][42][43][44][45][46][47][48][49][50][51][52][53][54][55][56][57][58][59][60][61][62][63][64][65][66][67][68][69][70][71][72][73][74][75][76][77][78][79][80][81][82][83][84][85][86][87][88][89][90][91][92][93][94][95][96][97][98][99][100][101][102][103][104][105][106][107][108][109][110][111][112][113][114][115][116][117][118][119][120][121][122][123][124][125][126][127][128][129][130][131][132][133][134][135][136][137][138][139][140][141][142][143][144][145][146][147][148][149][150][151][152][153][154][155][156][157][158][159][160][161][162][163][164][165][166][167][168][169][170][171][172][173][174][175][176][177][178][179][180][181][182][183][184][185][186][187][188][189][190][191][192][193][194][195][196][197][198][199][200][201][202][203][204][205][206][207][208][209][210][211][212][213][214][215][216][217][218][219][220][221][222][223][224][225][226][227][228][229][230][231][232][233][234][235][236][237][238][239][240][241][242][243][244][245][246][247][248][249][250][251][252][253][254][255]   }
+
+	BLOCK STATISTICS:
+	Table index 20 in Memory 2 Address 0x000001C69CC40630.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC40630	A:1488	I:1584	T[128.000000 B]	F:1711	S:1712
+
+		T[128] "20" {  [0.100][0.200][0.300][0.400][0.500][0.600][0.700][0.800]   }
+
+	BLOCK STATISTICS:
+	Table index 21 in Memory 2 Address 0x000001C69CC406B0.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC406B0	A:1584	I:1712	T[96.000000 B]	F:1807	S:1840
+
+		T[96] "21" {  [0][1][2][3][4][5][6][7]   }
+
+	BLOCK STATISTICS:
+	Table index 22 in Memory 3 Address 0x000001C69CC50510.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC50510	A:1168	I:1296	T[128.000000 B]	F:1423	S:1424
+
+		T[128] "23" {  [0.100][0.200][0.300][0.400][0.500][0.600][0.700][0.800]   }
+
+	BLOCK STATISTICS:
+	Table index 23 in Memory 3 Address 0x000001C69CC50590.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC50590	A:1296	I:1424	T[96.000000 B]	F:1519	S:1520
+
+		T[96] "24" {  [0][1][2][3][4][5][6][7]   }
+
+	BLOCK STATISTICS:
+	Table index 24 in Memory 3 Address 0x000001C69CC505F0.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC505F0	A:1424	I:1520	T[128.000000 B]	F:1647	S:1648
+
+		T[128] "26" {  [0.100][0.200][0.300][0.400][0.500][0.600][0.700][0.800]   }
+
+	BLOCK STATISTICS:
+	Table index 25 in Memory 3 Address 0x000001C69CC50670.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC50670	A:1520	I:1648	T[96.000000 B]	F:1743	S:1744
+
+		T[96] "27" {  [0][1][2][3][4][5][6][7]   }
+
+	BLOCK STATISTICS:
+	Table index 26 in Memory 3 Address 0x000001C69CC506D0.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC506D0	A:1648	I:1744	T[128.000000 B]	F:1871	S:0
+
+		T[128] "29" {  [0.100][0.200][0.300][0.400][0.500][0.600][0.700][0.800]   }
+
+	BLOCK STATISTICS:
+	Table index 27 in Memory 4 Address 0x000001C69CC60490.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC60490	A:80	I:1168	T[136.000000 B]	F:1303	S:1304
+
+		T[136] "333" {  TransforComponent - TIPO DESCONOCIDO   }
+
+	BLOCK STATISTICS:
+	Table index 28 in Memory 4 Address 0x000001C69CC60518.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC60518	A:1168	I:1304	T[144.000000 B]	F:1447	S:0
+
+		T[144] "777" {  BETTER WITH A LONGER ONE? - [0][1][2][3][4][5][6][7]   }
+
+
+-----------------------------------------
+DELETE DATA WITH EVEN NUMBERS FROM MEMORY
+-----------------------------------------
+
+
+DELETE BLOCK: Table Index 0 in Memory 1 Address: 0x000001C69CC30000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC301D0	A:352	I:464	T[96.000000 B]	F:559	S:560
+	The adjacent gap on the left merged into a larger one of 112.000000 B.
+	1 gap(s) found with a fragmentation of 112.000000 B.
+	At the end of the Memory there are free(s) 0.000000 B.
+	And 7 block(s) out of a total of 29 block(s) present in the system.
+
+START DEFRAGMENTATION BY EXTERNAL IDLE: 
+END EXTERNAL IDLE.
+
+DELETE BLOCK: Table Index 2 in Memory 1 Address: 0x000001C69CC30000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30670	A:560	I:1648	T[128.000000 B]	F:1775	S:1776
+	The block left a gap of 128.000000 B in the middle of 2 active blocks.
+	2 gap(s) found with a fragmentation of 240.000000 B.
+	At the end of the Memory there are free(s) 0.000000 B.
+	And 6 block(s) out of a total of 28 block(s) present in the system.
+
+START DEFRAGMENTATION BY EXTERNAL IDLE: 
+END EXTERNAL IDLE.
+
+DELETE BLOCK: Table Index 4 in Memory 2 Address: 0x000001C69CC40000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC40050	A:0	I:80	T[1.062500 KB]	F:1167	S:1168
+	The block left a gap of 1.062500 KB in the middle of 2 active blocks.
+	2 gap(s) found with a fragmentation of 1.093750 KB.
+	At the end of the Memory there are free(s) 32.000000 B.
+	And 7 block(s) out of a total of 27 block(s) present in the system.
+
+START DEFRAGMENTATION BY EXTERNAL IDLE: 
+END EXTERNAL IDLE.
+
+DELETE BLOCK: Table Index 6 in Memory 2 Address: 0x000001C69CC40000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC40490	A:0	I:1168	T[96.000000 B]	F:1263	S:1264
+	The adjacent gap on the left merged into a larger one of 1.156250 KB.
+	2 gap(s) found with a fragmentation of 1.187500 KB.
+	At the end of the Memory there are free(s) 32.000000 B.
+	And 6 block(s) out of a total of 26 block(s) present in the system.
+
+START DEFRAGMENTATION BY EXTERNAL IDLE: 
+END EXTERNAL IDLE.
+
+DELETE BLOCK: Table Index 8 in Memory 1 Address: 0x000001C69CC30000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30080	A:80	I:128	T[128.000000 B]	F:255	S:256
+	The block left a gap of 128.000000 B in the middle of 2 active blocks.
+	3 gap(s) found with a fragmentation of 368.000000 B.
+	At the end of the Memory there are free(s) 0.000000 B.
+	And 5 block(s) out of a total of 25 block(s) present in the system.
+
+START DEFRAGMENTATION BY EXTERNAL IDLE: 
+END EXTERNAL IDLE.
+
+DELETE BLOCK: Table Index 10 in Memory 4 Address: 0x000001C69CC60000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC60050	A:0	I:80	T[1.062500 KB]	F:1167	S:1168
+	The block left a gap of 1.062500 KB in the middle of 2 active blocks.
+	1 gap(s) found with a fragmentation of 1.062500 KB.
+	At the end of the Memory there are free(s) 552.000000 B.
+	And 2 block(s) out of a total of 24 block(s) present in the system.
+
+START DEFRAGMENTATION BY EXTERNAL IDLE: 
+
+DEFRAGMENT: 1.062500 KB gap in Memory 4 Address: 0x000001C69CC60000
+
+	[Previous block]
+	
+	BLOCK STATISTICS:
+	Address 0x000001C69CC60000	A:0	I:0	T[80.000000 B]	F:79	S:1168
+
+	[Current block]
+	
+	BLOCK STATISTICS:
+	Address 0x000001C69CC60490	A:0	I:1168	T[136.000000 B]	F:1303	S:1304
+
+	[Next block]
+	
+	BLOCK STATISTICS:
+	Address 0x000001C69CC60518	A:1168	I:1304	T[144.000000 B]	F:1447	S:0
+
+	[THE GAP PERSISTS AND HAS SHIFTED TO THE RIGHT OF THE MEMORY]
+
+
+	[Previous block]
+	
+	BLOCK STATISTICS:
+	Address 0x000001C69CC60000	A:0	I:0	T[80.000000 B]	F:79	S:80
+	Current block after defragmentation.
+	
+	BLOCK STATISTICS:
+	Address 0x000001C69CC60050	A:0	I:80	T[136.000000 B]	F:215	S:1304
+
+	[Next block]
+	
+	BLOCK STATISTICS:
+	Address 0x000001C69CC60518	A:80	I:1304	T[144.000000 B]	F:1447	S:0
+	1 gap(s) found with a fragmentation of 1.062500 KB.
+	At the end of the Memory there are free(s) 552.000000 B.
+	And 2 block(s) out of a total of 24 block(s) present in the system.
+END EXTERNAL IDLE.
+
+DELETE BLOCK: Table Index 12 in Memory 1 Address: 0x000001C69CC30000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30160	A:256	I:352	T[96.000000 B]	F:447	S:560
+	The adjacent gap on the right merged into a larger one of 208.000000 B.
+	3 gap(s) found with a fragmentation of 464.000000 B.
+	At the end of the Memory there are free(s) 0.000000 B.
+	And 4 block(s) out of a total of 23 block(s) present in the system.
+
+START DEFRAGMENTATION BY EXTERNAL IDLE: 
+
+DEFRAGMENT: has been stopped.
+
+	The block of 144.000000 B is larger than the average 140.000000 B of Memory 4.
+END EXTERNAL IDLE.
+
+DELETE BLOCK: Table Index 14 in Memory 3 Address: 0x000001C69CC50000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC50490	A:80	I:1168	T[128.000000 B]	F:1295	S:1296
+	The block left a gap of 128.000000 B in the middle of 2 active blocks.
+	1 gap(s) found with a fragmentation of 128.000000 B.
+	At the end of the Memory there are free(s) 128.000000 B.
+	And 6 block(s) out of a total of 22 block(s) present in the system.
+
+START DEFRAGMENTATION BY EXTERNAL IDLE: 
+
+DEFRAGMENT: has been stopped.
+
+	The block of 144.000000 B is larger than the average 140.000000 B of Memory 4.
+END EXTERNAL IDLE.
+
+DELETE BLOCK: Table Index 16 in Memory 7 Address: 0x000001C69CC90000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC90050	A:0	I:80	T[1.062500 KB]	F:1167	S:0
+	At the end of memory increased the space.
+	0 gap(s) found with a fragmentation of 0.000000 B.
+	At the end of the Memory there are free(s) 0.000000 B.
+	And 0 block(s) out of a total of 21 block(s) present in the system.
+
+ATTENTION: Memory 7 has 2 chance(s) left before being deleted.
+
+START DEFRAGMENTATION BY EXTERNAL IDLE: 
+
+DEFRAGMENT: has been stopped.
+
+	The block of 144.000000 B is larger than the average 140.000000 B of Memory 4.
+END EXTERNAL IDLE.
+
+DELETE BLOCK: Table Index 18 in Memory 2 Address: 0x000001C69CC40000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC405D0	A:1360	I:1488	T[96.000000 B]	F:1583	S:1584
+	The block left a gap of 96.000000 B in the middle of 2 active blocks.
+	3 gap(s) found with a fragmentation of 1.281250 KB.
+	At the end of the Memory there are free(s) 32.000000 B.
+	And 5 block(s) out of a total of 20 block(s) present in the system.
+
+ATTENTION: Memory 7 has 1 chance(s) left before being deleted.
+
+START DEFRAGMENTATION BY EXTERNAL IDLE: 
+
+DEFRAGMENT: has been stopped.
+
+	The block of 144.000000 B is larger than the average 140.000000 B of Memory 4.
+END EXTERNAL IDLE.
+
+DELETE BLOCK: Table Index 20 in Memory 2 Address: 0x000001C69CC40000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC40630	A:1360	I:1584	T[128.000000 B]	F:1711	S:1712
+	The adjacent gap on the left merged into a larger one of 224.000000 B.
+	3 gap(s) found with a fragmentation of 1.406250 KB.
+	At the end of the Memory there are free(s) 32.000000 B.
+	And 4 block(s) out of a total of 19 block(s) present in the system.
+
+ATTENTION: Memory 7 has 0 chance(s) left before being deleted.
+
+-------------------------------
+THE MEMORY WAS COMPLETE DELETED
+--------------------------------
+
+START DEFRAGMENTATION BY EXTERNAL IDLE: 
+
+DEFRAGMENT: has been stopped.
+
+	The block of 144.000000 B is larger than the average 140.000000 B of Memory 4.
+END EXTERNAL IDLE.
+
+DELETE BLOCK: Table Index 22 in Memory 3 Address: 0x000001C69CC50000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC50510	A:80	I:1296	T[128.000000 B]	F:1423	S:1424
+	The adjacent gap on the left merged into a larger one of 256.000000 B.
+	1 gap(s) found with a fragmentation of 256.000000 B.
+	At the end of the Memory there are free(s) 128.000000 B.
+	And 5 block(s) out of a total of 18 block(s) present in the system.
+
+START DEFRAGMENTATION BY EXTERNAL IDLE: 
+
+DEFRAGMENT: has been stopped.
+
+	The block of 144.000000 B is larger than the average 140.000000 B of Memory 4.
+END EXTERNAL IDLE.
+
+DELETE BLOCK: Table Index 24 in Memory 3 Address: 0x000001C69CC50000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC505F0	A:1424	I:1520	T[128.000000 B]	F:1647	S:1648
+	The block left a gap of 128.000000 B in the middle of 2 active blocks.
+	2 gap(s) found with a fragmentation of 384.000000 B.
+	At the end of the Memory there are free(s) 128.000000 B.
+	And 4 block(s) out of a total of 17 block(s) present in the system.
+
+START DEFRAGMENTATION BY EXTERNAL IDLE: 
+
+DEFRAGMENT: has been stopped.
+
+	The block of 144.000000 B is larger than the average 140.000000 B of Memory 4.
+END EXTERNAL IDLE.
+
+DELETE BLOCK: Table Index 26 in Memory 3 Address: 0x000001C69CC50000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC506D0	A:1648	I:1744	T[128.000000 B]	F:1871	S:0
+	At the end of memory increased the space.
+	2 gap(s) found with a fragmentation of 384.000000 B.
+	At the end of the Memory there are free(s) 256.000000 B.
+	And 3 block(s) out of a total of 16 block(s) present in the system.
+
+START DEFRAGMENTATION BY EXTERNAL IDLE: 
+
+DEFRAGMENT: has been stopped.
+
+	The block of 144.000000 B is larger than the average 140.000000 B of Memory 4.
+END EXTERNAL IDLE.
+
+DELETE BLOCK: Table Index 28 in Memory 4 Address: 0x000001C69CC60000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC60518	A:80	I:1304	T[144.000000 B]	F:1447	S:0
+	At the end of memory by merging with the adjacent gap on the left increased the space.
+	0 gap(s) found with a fragmentation of 0.000000 B.
+	At the end of the Memory there are free(s) 0.000000 B.
+	And 1 block(s) out of a total of 15 block(s) present in the system.
+
+START DEFRAGMENTATION BY EXTERNAL IDLE: 
+END EXTERNAL IDLE.
+
+------------------
+SHOW MEMORY STATUS
+------------------n
+
+ADDRESS BLOCKS: 	[0x000001C69CC30230]	[0x000001C69CC306F0]	[0x000001C69CC30750]	[0x000001C69CC50050]	[0x000001C69CC30100]	[0x000001C69CC40730]	[0x000001C69CC70050]	[0x000001C69CC404F0]	[0x000001C69CC40550]	[0x000001C69CCA0050]	[0x000001C69CC406B0]	[0x000001C69CC50590]	[0x000001C69CC50670]	[0x000001C69CC60050]	[0x000001C69CC80050]
+
+GAP ADDRESS: 	[0x000001C69CC30100]	[0x000001C69CC406B0]	[0x000001C69CC30230]	[0x000001C69CC40000]	[0x000001C69CC30050]	[0x000001C69CC50050]	[0x000001C69CC40550]	[0x000001C69CC50590]
+
+	BLOCK STATISTICS:
+	Table index 1 in Memory 1 Address 0x000001C69CC30230.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30230	A:256	I:560	T[1.062500 KB]	F:1647	S:1776
+
+		T[1088] "1" {  [0][1][2][3][4][5][6][7][8][9][10][11][12][13][14][15][16][17][18][19][20][21][22][23][24][25][26][27][28][29][30][31][32][33][34][35][36][37][38][39][40][41][42][43][44][45][46][47][48][49][50][51][52][53][54][55][56][57][58][59][60][61][62][63][64][65][66][67][68][69][70][71][72][73][74][75][76][77][78][79][80][81][82][83][84][85][86][87][88][89][90][91][92][93][94][95][96][97][98][99][100][101][102][103][104][105][106][107][108][109][110][111][112][113][114][115][116][117][118][119][120][121][122][123][124][125][126][127][128][129][130][131][132][133][134][135][136][137][138][139][140][141][142][143][144][145][146][147][148][149][150][151][152][153][154][155][156][157][158][159][160][161][162][163][164][165][166][167][168][169][170][171][172][173][174][175][176][177][178][179][180][181][182][183][184][185][186][187][188][189][190][191][192][193][194][195][196][197][198][199][200][201][202][203][204][205][206][207][208][209][210][211][212][213][214][215][216][217][218][219][220][221][222][223][224][225][226][227][228][229][230][231][232][233][234][235][236][237][238][239][240][241][242][243][244][245][246][247][248][249][250][251][252][253][254][255]   }
+
+	BLOCK STATISTICS:
+	Table index 3 in Memory 1 Address 0x000001C69CC306F0.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC306F0	A:560	I:1776	T[96.000000 B]	F:1871	S:1872
+
+		T[96] "3" {  [0][1][2][3][4][5][6][7]   }
+
+	BLOCK STATISTICS:
+	Table index 5 in Memory 1 Address 0x000001C69CC30750.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30750	A:1776	I:1872	T[128.000000 B]	F:1999	S:0
+
+		T[128] "5" {  [0.100][0.200][0.300][0.400][0.500][0.600][0.700][0.800]   }
+
+	BLOCK STATISTICS:
+	Table index 7 in Memory 3 Address 0x000001C69CC50050.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC50050	A:0	I:80	T[1.062500 KB]	F:1167	S:1424
+
+		T[1088] "7" {  [0][1][2][3][4][5][6][7][8][9][10][11][12][13][14][15][16][17][18][19][20][21][22][23][24][25][26][27][28][29][30][31][32][33][34][35][36][37][38][39][40][41][42][43][44][45][46][47][48][49][50][51][52][53][54][55][56][57][58][59][60][61][62][63][64][65][66][67][68][69][70][71][72][73][74][75][76][77][78][79][80][81][82][83][84][85][86][87][88][89][90][91][92][93][94][95][96][97][98][99][100][101][102][103][104][105][106][107][108][109][110][111][112][113][114][115][116][117][118][119][120][121][122][123][124][125][126][127][128][129][130][131][132][133][134][135][136][137][138][139][140][141][142][143][144][145][146][147][148][149][150][151][152][153][154][155][156][157][158][159][160][161][162][163][164][165][166][167][168][169][170][171][172][173][174][175][176][177][178][179][180][181][182][183][184][185][186][187][188][189][190][191][192][193][194][195][196][197][198][199][200][201][202][203][204][205][206][207][208][209][210][211][212][213][214][215][216][217][218][219][220][221][222][223][224][225][226][227][228][229][230][231][232][233][234][235][236][237][238][239][240][241][242][243][244][245][246][247][248][249][250][251][252][253][254][255]   }
+
+	BLOCK STATISTICS:
+	Table index 9 in Memory 1 Address 0x000001C69CC30100.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30100	A:80	I:256	T[96.000000 B]	F:351	S:560
+
+		T[96] "9" {  [0][1][2][3][4][5][6][7]   }
+
+	BLOCK STATISTICS:
+	Table index 11 in Memory 2 Address 0x000001C69CC40730.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC40730	A:1712	I:1840	T[128.000000 B]	F:1967	S:0
+
+		T[128] "11" {  [0.100][0.200][0.300][0.400][0.500][0.600][0.700][0.800]   }
+
+	BLOCK STATISTICS:
+	Table index 13 in Memory 5 Address 0x000001C69CC70050.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC70050	A:0	I:80	T[1.062500 KB]	F:1167	S:0
+
+		T[1088] "13" {  [0][1][2][3][4][5][6][7][8][9][10][11][12][13][14][15][16][17][18][19][20][21][22][23][24][25][26][27][28][29][30][31][32][33][34][35][36][37][38][39][40][41][42][43][44][45][46][47][48][49][50][51][52][53][54][55][56][57][58][59][60][61][62][63][64][65][66][67][68][69][70][71][72][73][74][75][76][77][78][79][80][81][82][83][84][85][86][87][88][89][90][91][92][93][94][95][96][97][98][99][100][101][102][103][104][105][106][107][108][109][110][111][112][113][114][115][116][117][118][119][120][121][122][123][124][125][126][127][128][129][130][131][132][133][134][135][136][137][138][139][140][141][142][143][144][145][146][147][148][149][150][151][152][153][154][155][156][157][158][159][160][161][162][163][164][165][166][167][168][169][170][171][172][173][174][175][176][177][178][179][180][181][182][183][184][185][186][187][188][189][190][191][192][193][194][195][196][197][198][199][200][201][202][203][204][205][206][207][208][209][210][211][212][213][214][215][216][217][218][219][220][221][222][223][224][225][226][227][228][229][230][231][232][233][234][235][236][237][238][239][240][241][242][243][244][245][246][247][248][249][250][251][252][253][254][255]   }
+
+	BLOCK STATISTICS:
+	Table index 15 in Memory 2 Address 0x000001C69CC404F0.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC404F0	A:0	I:1264	T[96.000000 B]	F:1359	S:1360
+
+		T[96] "15" {  [0][1][2][3][4][5][6][7]   }
+
+	BLOCK STATISTICS:
+	Table index 17 in Memory 2 Address 0x000001C69CC40550.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC40550	A:1264	I:1360	T[128.000000 B]	F:1487	S:1712
+
+		T[128] "17" {  [0.100][0.200][0.300][0.400][0.500][0.600][0.700][0.800]   }
+
+	BLOCK STATISTICS:
+	Table index 19 in Memory 8 Address 0x000001C69CCA0050.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CCA0050	A:0	I:80	T[1.062500 KB]	F:1167	S:0
+
+		T[1088] "19" {  [0][1][2][3][4][5][6][7][8][9][10][11][12][13][14][15][16][17][18][19][20][21][22][23][24][25][26][27][28][29][30][31][32][33][34][35][36][37][38][39][40][41][42][43][44][45][46][47][48][49][50][51][52][53][54][55][56][57][58][59][60][61][62][63][64][65][66][67][68][69][70][71][72][73][74][75][76][77][78][79][80][81][82][83][84][85][86][87][88][89][90][91][92][93][94][95][96][97][98][99][100][101][102][103][104][105][106][107][108][109][110][111][112][113][114][115][116][117][118][119][120][121][122][123][124][125][126][127][128][129][130][131][132][133][134][135][136][137][138][139][140][141][142][143][144][145][146][147][148][149][150][151][152][153][154][155][156][157][158][159][160][161][162][163][164][165][166][167][168][169][170][171][172][173][174][175][176][177][178][179][180][181][182][183][184][185][186][187][188][189][190][191][192][193][194][195][196][197][198][199][200][201][202][203][204][205][206][207][208][209][210][211][212][213][214][215][216][217][218][219][220][221][222][223][224][225][226][227][228][229][230][231][232][233][234][235][236][237][238][239][240][241][242][243][244][245][246][247][248][249][250][251][252][253][254][255]   }
+
+	BLOCK STATISTICS:
+	Table index 21 in Memory 2 Address 0x000001C69CC406B0.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC406B0	A:1360	I:1712	T[96.000000 B]	F:1807	S:1840
+
+		T[96] "21" {  [0][1][2][3][4][5][6][7]   }
+
+	BLOCK STATISTICS:
+	Table index 23 in Memory 3 Address 0x000001C69CC50590.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC50590	A:80	I:1424	T[96.000000 B]	F:1519	S:1648
+
+		T[96] "24" {  [0][1][2][3][4][5][6][7]   }
+
+	BLOCK STATISTICS:
+	Table index 25 in Memory 3 Address 0x000001C69CC50670.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC50670	A:1424	I:1648	T[96.000000 B]	F:1743	S:0
+
+		T[96] "27" {  [0][1][2][3][4][5][6][7]   }
+
+	BLOCK STATISTICS:
+	Table index 27 in Memory 4 Address 0x000001C69CC60050.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC60050	A:0	I:80	T[136.000000 B]	F:215	S:0
+
+		T[136] "333" {  TransforComponent - TIPO DESCONOCIDO   }
+
+
+--------------------------
+ENTER NEW DATA INTO MEMORY
+--------------------------
+
+
+FILL GAP: the 128.000000 B block goes into the 208.000000 B gap.
+
+	ENTER BLOCK: in Memory 1 Address 0x000001C69CC30000.
+	The gap was not eliminated but was reduced to 80.000000 B after the entry.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30160	A:256	I:352	T[128.000000 B]	F:479	S:560
+	3 gap(s) found with a fragmentation of 336.000000 B.
+	At the end of the Memory there are free(s) 0.000000 B.
+	And 5 block(s) out of a total of 16 block(s) present in the system.
+
+FILL GAP: 128.000000 B block could not fit into 80.000000 B gap.
+
+DEFRAGMENT: has been stopped.
+
+	The block of 1.062500 KB is larger than the average 316.000000 B of Memory 1.
+
+FILL GAP: 128.000000 B block could not fit into 32.000000 B gap.
+
+DEFRAGMENT: has been stopped.
+
+	The block of 128.000000 B is larger than the average 112.000000 B of Memory 2.
+
+FILL GAP: the 128.000000 B block goes into the 256.000000 B gap.
+
+	ENTER BLOCK: in Memory 3 Address 0x000001C69CC50000.
+	The gap was not eliminated but was reduced to 128.000000 B after the entry.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC50490	A:80	I:1168	T[128.000000 B]	F:1295	S:1424
+	2 gap(s) found with a fragmentation of 256.000000 B.
+	At the end of the Memory there are free(s) 256.000000 B.
+	And 4 block(s) out of a total of 17 block(s) present in the system.
+
+FILL GAP: 128.000000 B block could not fit into 80.000000 B gap.
+
+DEFRAGMENT: has been stopped.
+
+	The block of 1.062500 KB is larger than the average 316.000000 B of Memory 1.
+
+FILL GAP: 128.000000 B block could not fit into 32.000000 B gap.
+
+DEFRAGMENT: has been stopped.
+
+	The block of 128.000000 B is larger than the average 112.000000 B of Memory 2.
+
+FILL GAP: the 128.000000 B block goes into the 128.000000 B gap.
+
+	ENTER BLOCK: in Memory 3 Address 0x000001C69CC50000.
+	The gap was completely eliminated.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC50510	A:1168	I:1296	T[128.000000 B]	F:1423	S:1424
+	1 gap(s) found with a fragmentation of 128.000000 B.
+	At the end of the Memory there are free(s) 256.000000 B.
+	And 5 block(s) out of a total of 18 block(s) present in the system.
+
+FILL GAP: 128.000000 B block could not fit into 80.000000 B gap.
+
+DEFRAGMENT: has been stopped.
+
+	The block of 1.062500 KB is larger than the average 316.000000 B of Memory 1.
+
+FILL GAP: 128.000000 B block could not fit into 32.000000 B gap.
+
+DEFRAGMENT: has been stopped.
+
+	The block of 128.000000 B is larger than the average 112.000000 B of Memory 2.
+
+FILL GAP: the 128.000000 B block goes into the 128.000000 B gap.
+
+	ENTER BLOCK: in Memory 3 Address 0x000001C69CC50000.
+	The gap was completely eliminated.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC505F0	A:1424	I:1520	T[128.000000 B]	F:1647	S:1648
+	0 gap(s) found with a fragmentation of 0.000000 B.
+	At the end of the Memory there are free(s) 256.000000 B.
+	And 6 block(s) out of a total of 19 block(s) present in the system.
+
+FILL GAP: 128.000000 B block could not fit into 80.000000 B gap.
+
+DEFRAGMENT: has been stopped.
+
+	The block of 1.062500 KB is larger than the average 316.000000 B of Memory 1.
+
+FILL GAP: 128.000000 B block could not fit into 32.000000 B gap.
+
+DEFRAGMENT: has been stopped.
+
+	The block of 128.000000 B is larger than the average 112.000000 B of Memory 2.
+
+ENTER BLOCK: in Memory 3 Address: 0x000001C69CC50000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC506D0	A:1648	I:1744	T[128.000000 B]	F:1871	S:0
+	0 gap(s) found with a fragmentation of 0.000000 B.
+	At the end of the Memory there are free(s) 128.000000 B.
+	And 7 block(s) out of a total of 20 block(s) present in the system.
+
+FILL GAP: 128.000000 B block could not fit into 80.000000 B gap.
+
+DEFRAGMENT: has been stopped.
+
+	The block of 1.062500 KB is larger than the average 316.000000 B of Memory 1.
+
+FILL GAP: 128.000000 B block could not fit into 32.000000 B gap.
+
+DEFRAGMENT: has been stopped.
+
+	The block of 128.000000 B is larger than the average 112.000000 B of Memory 2.
+
+ENTER BLOCK: in Memory 3 Address: 0x000001C69CC50000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC50750	A:1744	I:1872	T[128.000000 B]	F:1999	S:0
+	0 gap(s) found with a fragmentation of 0.000000 B.
+	At the end of the Memory there are free(s) 0.000000 B.
+	And 8 block(s) out of a total of 21 block(s) present in the system.
+
+FILL GAP: 128.000000 B block could not fit into 80.000000 B gap.
+
+DEFRAGMENT: has been stopped.
+
+	The block of 1.062500 KB is larger than the average 316.000000 B of Memory 1.
+
+FILL GAP: 128.000000 B block could not fit into 32.000000 B gap.
+
+DEFRAGMENT: has been stopped.
+
+	The block of 128.000000 B is larger than the average 112.000000 B of Memory 2.
+
+ENTER BLOCK: in Memory 5 Address: 0x000001C69CC70000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC70490	A:80	I:1168	T[128.000000 B]	F:1295	S:0
+	0 gap(s) found with a fragmentation of 0.000000 B.
+	At the end of the Memory there are free(s) 704.000000 B.
+	And 2 block(s) out of a total of 22 block(s) present in the system.
+
+FILL GAP: 128.000000 B block could not fit into 80.000000 B gap.
+
+DEFRAGMENT: has been stopped.
+
+	The block of 1.062500 KB is larger than the average 316.000000 B of Memory 1.
+
+FILL GAP: 128.000000 B block could not fit into 32.000000 B gap.
+
+DEFRAGMENT: has been stopped.
+
+	The block of 128.000000 B is larger than the average 112.000000 B of Memory 2.
+
+ENTER BLOCK: in Memory 5 Address: 0x000001C69CC70000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC70510	A:1168	I:1296	T[128.000000 B]	F:1423	S:0
+	0 gap(s) found with a fragmentation of 0.000000 B.
+	At the end of the Memory there are free(s) 576.000000 B.
+	And 3 block(s) out of a total of 23 block(s) present in the system.
+
+FILL GAP: 128.000000 B block could not fit into 80.000000 B gap.
+
+DEFRAGMENT: has been stopped.
+
+	The block of 1.062500 KB is larger than the average 316.000000 B of Memory 1.
+
+FILL GAP: 128.000000 B block could not fit into 32.000000 B gap.
+
+DEFRAGMENT: has been stopped.
+
+	The block of 128.000000 B is larger than the average 112.000000 B of Memory 2.
+
+ENTER BLOCK: in Memory 5 Address: 0x000001C69CC70000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC70590	A:1296	I:1424	T[128.000000 B]	F:1551	S:0
+	0 gap(s) found with a fragmentation of 0.000000 B.
+	At the end of the Memory there are free(s) 448.000000 B.
+	And 4 block(s) out of a total of 24 block(s) present in the system.
+
+FILL GAP: 128.000000 B block could not fit into 80.000000 B gap.
+
+DEFRAGMENT: has been stopped.
+
+	The block of 1.062500 KB is larger than the average 316.000000 B of Memory 1.
+
+FILL GAP: 128.000000 B block could not fit into 32.000000 B gap.
+
+DEFRAGMENT: has been stopped.
+
+	The block of 128.000000 B is larger than the average 112.000000 B of Memory 2.
+
+ENTER BLOCK: in Memory 5 Address: 0x000001C69CC70000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC70610	A:1424	I:1552	T[128.000000 B]	F:1679	S:0
+	0 gap(s) found with a fragmentation of 0.000000 B.
+	At the end of the Memory there are free(s) 320.000000 B.
+	And 5 block(s) out of a total of 25 block(s) present in the system.
+
+------------------
+SHOW MEMORY STATUS
+------------------n
+
+ADDRESS BLOCKS: 	[0x000001C69CC30160]	[0x000001C69CC30230]	[0x000001C69CC50490]	[0x000001C69CC306F0]	[0x000001C69CC50510]	[0x000001C69CC30750]	[0x000001C69CC505F0]	[0x000001C69CC50050]	[0x000001C69CC506D0]	[0x000001C69CC30100]	[0x000001C69CC50750]	[0x000001C69CC40730]	[0x000001C69CC70490]	[0x000001C69CC70050]	[0x000001C69CC70510]	[0x000001C69CC404F0]	[0x000001C69CC70590]	[0x000001C69CC40550]	[0x000001C69CC70610]	[0x000001C69CCA0050]	[0x000001C69CC406B0]	[0x000001C69CC50590]	[0x000001C69CC50670]	[0x000001C69CC60050]	[0x000001C69CC80050]
+
+GAP ADDRESS: 	[0x000001C69CC30160]	[0x000001C69CC406B0]	[0x000001C69CC30230]	[0x000001C69CC40000]	[0x000001C69CC30050]	[0x000001C69CC40550]
+
+	BLOCK STATISTICS:
+	Table index 0 in Memory 1 Address 0x000001C69CC30160.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30160	A:256	I:352	T[128.000000 B]	F:479	S:560
+
+		T[128] "30" {  [0.100][0.200][0.300][0.400][0.500][0.600][0.700][0.800]   }
+
+	BLOCK STATISTICS:
+	Table index 1 in Memory 1 Address 0x000001C69CC30230.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30230	A:352	I:560	T[1.062500 KB]	F:1647	S:1776
+
+		T[1088] "1" {  [0][1][2][3][4][5][6][7][8][9][10][11][12][13][14][15][16][17][18][19][20][21][22][23][24][25][26][27][28][29][30][31][32][33][34][35][36][37][38][39][40][41][42][43][44][45][46][47][48][49][50][51][52][53][54][55][56][57][58][59][60][61][62][63][64][65][66][67][68][69][70][71][72][73][74][75][76][77][78][79][80][81][82][83][84][85][86][87][88][89][90][91][92][93][94][95][96][97][98][99][100][101][102][103][104][105][106][107][108][109][110][111][112][113][114][115][116][117][118][119][120][121][122][123][124][125][126][127][128][129][130][131][132][133][134][135][136][137][138][139][140][141][142][143][144][145][146][147][148][149][150][151][152][153][154][155][156][157][158][159][160][161][162][163][164][165][166][167][168][169][170][171][172][173][174][175][176][177][178][179][180][181][182][183][184][185][186][187][188][189][190][191][192][193][194][195][196][197][198][199][200][201][202][203][204][205][206][207][208][209][210][211][212][213][214][215][216][217][218][219][220][221][222][223][224][225][226][227][228][229][230][231][232][233][234][235][236][237][238][239][240][241][242][243][244][245][246][247][248][249][250][251][252][253][254][255]   }
+
+	BLOCK STATISTICS:
+	Table index 2 in Memory 3 Address 0x000001C69CC50490.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC50490	A:80	I:1168	T[128.000000 B]	F:1295	S:1296
+
+		T[128] "31" {  [0.100][0.200][0.300][0.400][0.500][0.600][0.700][0.800]   }
+
+	BLOCK STATISTICS:
+	Table index 3 in Memory 1 Address 0x000001C69CC306F0.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC306F0	A:560	I:1776	T[96.000000 B]	F:1871	S:1872
+
+		T[96] "3" {  [0][1][2][3][4][5][6][7]   }
+
+	BLOCK STATISTICS:
+	Table index 4 in Memory 3 Address 0x000001C69CC50510.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC50510	A:1168	I:1296	T[128.000000 B]	F:1423	S:1424
+
+		T[128] "32" {  [0.100][0.200][0.300][0.400][0.500][0.600][0.700][0.800]   }
+
+	BLOCK STATISTICS:
+	Table index 5 in Memory 1 Address 0x000001C69CC30750.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30750	A:1776	I:1872	T[128.000000 B]	F:1999	S:0
+
+		T[128] "5" {  [0.100][0.200][0.300][0.400][0.500][0.600][0.700][0.800]   }
+
+	BLOCK STATISTICS:
+	Table index 6 in Memory 3 Address 0x000001C69CC505F0.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC505F0	A:1424	I:1520	T[128.000000 B]	F:1647	S:1648
+
+		T[128] "33" {  [0.100][0.200][0.300][0.400][0.500][0.600][0.700][0.800]   }
+
+	BLOCK STATISTICS:
+	Table index 7 in Memory 3 Address 0x000001C69CC50050.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC50050	A:0	I:80	T[1.062500 KB]	F:1167	S:1168
+
+		T[1088] "7" {  [0][1][2][3][4][5][6][7][8][9][10][11][12][13][14][15][16][17][18][19][20][21][22][23][24][25][26][27][28][29][30][31][32][33][34][35][36][37][38][39][40][41][42][43][44][45][46][47][48][49][50][51][52][53][54][55][56][57][58][59][60][61][62][63][64][65][66][67][68][69][70][71][72][73][74][75][76][77][78][79][80][81][82][83][84][85][86][87][88][89][90][91][92][93][94][95][96][97][98][99][100][101][102][103][104][105][106][107][108][109][110][111][112][113][114][115][116][117][118][119][120][121][122][123][124][125][126][127][128][129][130][131][132][133][134][135][136][137][138][139][140][141][142][143][144][145][146][147][148][149][150][151][152][153][154][155][156][157][158][159][160][161][162][163][164][165][166][167][168][169][170][171][172][173][174][175][176][177][178][179][180][181][182][183][184][185][186][187][188][189][190][191][192][193][194][195][196][197][198][199][200][201][202][203][204][205][206][207][208][209][210][211][212][213][214][215][216][217][218][219][220][221][222][223][224][225][226][227][228][229][230][231][232][233][234][235][236][237][238][239][240][241][242][243][244][245][246][247][248][249][250][251][252][253][254][255]   }
+
+	BLOCK STATISTICS:
+	Table index 8 in Memory 3 Address 0x000001C69CC506D0.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC506D0	A:1648	I:1744	T[128.000000 B]	F:1871	S:1872
+
+		T[128] "34" {  [0.100][0.200][0.300][0.400][0.500][0.600][0.700][0.800]   }
+
+	BLOCK STATISTICS:
+	Table index 9 in Memory 1 Address 0x000001C69CC30100.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30100	A:80	I:256	T[96.000000 B]	F:351	S:352
+
+		T[96] "9" {  [0][1][2][3][4][5][6][7]   }
+
+	BLOCK STATISTICS:
+	Table index 10 in Memory 3 Address 0x000001C69CC50750.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC50750	A:1744	I:1872	T[128.000000 B]	F:1999	S:0
+
+		T[128] "35" {  [0.100][0.200][0.300][0.400][0.500][0.600][0.700][0.800]   }
+
+	BLOCK STATISTICS:
+	Table index 11 in Memory 2 Address 0x000001C69CC40730.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC40730	A:1712	I:1840	T[128.000000 B]	F:1967	S:0
+
+		T[128] "11" {  [0.100][0.200][0.300][0.400][0.500][0.600][0.700][0.800]   }
+
+	BLOCK STATISTICS:
+	Table index 12 in Memory 5 Address 0x000001C69CC70490.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC70490	A:80	I:1168	T[128.000000 B]	F:1295	S:1296
+
+		T[128] "36" {  [0.100][0.200][0.300][0.400][0.500][0.600][0.700][0.800]   }
+
+	BLOCK STATISTICS:
+	Table index 13 in Memory 5 Address 0x000001C69CC70050.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC70050	A:0	I:80	T[1.062500 KB]	F:1167	S:1168
+
+		T[1088] "13" {  [0][1][2][3][4][5][6][7][8][9][10][11][12][13][14][15][16][17][18][19][20][21][22][23][24][25][26][27][28][29][30][31][32][33][34][35][36][37][38][39][40][41][42][43][44][45][46][47][48][49][50][51][52][53][54][55][56][57][58][59][60][61][62][63][64][65][66][67][68][69][70][71][72][73][74][75][76][77][78][79][80][81][82][83][84][85][86][87][88][89][90][91][92][93][94][95][96][97][98][99][100][101][102][103][104][105][106][107][108][109][110][111][112][113][114][115][116][117][118][119][120][121][122][123][124][125][126][127][128][129][130][131][132][133][134][135][136][137][138][139][140][141][142][143][144][145][146][147][148][149][150][151][152][153][154][155][156][157][158][159][160][161][162][163][164][165][166][167][168][169][170][171][172][173][174][175][176][177][178][179][180][181][182][183][184][185][186][187][188][189][190][191][192][193][194][195][196][197][198][199][200][201][202][203][204][205][206][207][208][209][210][211][212][213][214][215][216][217][218][219][220][221][222][223][224][225][226][227][228][229][230][231][232][233][234][235][236][237][238][239][240][241][242][243][244][245][246][247][248][249][250][251][252][253][254][255]   }
+
+	BLOCK STATISTICS:
+	Table index 14 in Memory 5 Address 0x000001C69CC70510.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC70510	A:1168	I:1296	T[128.000000 B]	F:1423	S:1424
+
+		T[128] "37" {  [0.100][0.200][0.300][0.400][0.500][0.600][0.700][0.800]   }
+
+	BLOCK STATISTICS:
+	Table index 15 in Memory 2 Address 0x000001C69CC404F0.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC404F0	A:0	I:1264	T[96.000000 B]	F:1359	S:1360
+
+		T[96] "15" {  [0][1][2][3][4][5][6][7]   }
+
+	BLOCK STATISTICS:
+	Table index 16 in Memory 5 Address 0x000001C69CC70590.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC70590	A:1296	I:1424	T[128.000000 B]	F:1551	S:1552
+
+		T[128] "38" {  [0.100][0.200][0.300][0.400][0.500][0.600][0.700][0.800]   }
+
+	BLOCK STATISTICS:
+	Table index 17 in Memory 2 Address 0x000001C69CC40550.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC40550	A:1264	I:1360	T[128.000000 B]	F:1487	S:1712
+
+		T[128] "17" {  [0.100][0.200][0.300][0.400][0.500][0.600][0.700][0.800]   }
+
+	BLOCK STATISTICS:
+	Table index 18 in Memory 5 Address 0x000001C69CC70610.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC70610	A:1424	I:1552	T[128.000000 B]	F:1679	S:0
+
+		T[128] "39" {  [0.100][0.200][0.300][0.400][0.500][0.600][0.700][0.800]   }
+
+	BLOCK STATISTICS:
+	Table index 19 in Memory 8 Address 0x000001C69CCA0050.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CCA0050	A:0	I:80	T[1.062500 KB]	F:1167	S:0
+
+		T[1088] "19" {  [0][1][2][3][4][5][6][7][8][9][10][11][12][13][14][15][16][17][18][19][20][21][22][23][24][25][26][27][28][29][30][31][32][33][34][35][36][37][38][39][40][41][42][43][44][45][46][47][48][49][50][51][52][53][54][55][56][57][58][59][60][61][62][63][64][65][66][67][68][69][70][71][72][73][74][75][76][77][78][79][80][81][82][83][84][85][86][87][88][89][90][91][92][93][94][95][96][97][98][99][100][101][102][103][104][105][106][107][108][109][110][111][112][113][114][115][116][117][118][119][120][121][122][123][124][125][126][127][128][129][130][131][132][133][134][135][136][137][138][139][140][141][142][143][144][145][146][147][148][149][150][151][152][153][154][155][156][157][158][159][160][161][162][163][164][165][166][167][168][169][170][171][172][173][174][175][176][177][178][179][180][181][182][183][184][185][186][187][188][189][190][191][192][193][194][195][196][197][198][199][200][201][202][203][204][205][206][207][208][209][210][211][212][213][214][215][216][217][218][219][220][221][222][223][224][225][226][227][228][229][230][231][232][233][234][235][236][237][238][239][240][241][242][243][244][245][246][247][248][249][250][251][252][253][254][255]   }
+
+	BLOCK STATISTICS:
+	Table index 21 in Memory 2 Address 0x000001C69CC406B0.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC406B0	A:1360	I:1712	T[96.000000 B]	F:1807	S:1840
+
+		T[96] "21" {  [0][1][2][3][4][5][6][7]   }
+
+	BLOCK STATISTICS:
+	Table index 23 in Memory 3 Address 0x000001C69CC50590.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC50590	A:1296	I:1424	T[96.000000 B]	F:1519	S:1520
+
+		T[96] "24" {  [0][1][2][3][4][5][6][7]   }
+
+	BLOCK STATISTICS:
+	Table index 25 in Memory 3 Address 0x000001C69CC50670.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC50670	A:1520	I:1648	T[96.000000 B]	F:1743	S:1744
+
+		T[96] "27" {  [0][1][2][3][4][5][6][7]   }
+
+	BLOCK STATISTICS:
+	Table index 27 in Memory 4 Address 0x000001C69CC60050.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC60050	A:0	I:80	T[136.000000 B]	F:215	S:0
+
+		T[136] "333" {  TransforComponent - TIPO DESCONOCIDO   }
+
+
+----------------------------------------
+DELETE DATA WITH ODD NUMBERS FROM MEMORY
+----------------------------------------
+
+
+DELETE BLOCK: Table Index 1 in Memory 1 Address: 0x000001C69CC30000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30230	A:352	I:560	T[1.062500 KB]	F:1647	S:1776
+	The gaps adjacent to both sides merged into one larger one of 1.265625 KB.
+	2 gap(s) found with a fragmentation of 1.390625 KB.
+	At the end of the Memory there are free(s) 0.000000 B.
+	And 4 block(s) out of a total of 24 block(s) present in the system.
+
+DELETE BLOCK: Table Index 3 in Memory 1 Address: 0x000001C69CC30000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC306F0	A:352	I:1776	T[96.000000 B]	F:1871	S:1872
+	The adjacent gap on the left merged into a larger one of 1.359375 KB.
+	2 gap(s) found with a fragmentation of 1.484375 KB.
+	At the end of the Memory there are free(s) 0.000000 B.
+	And 3 block(s) out of a total of 23 block(s) present in the system.
+
+DELETE BLOCK: Table Index 5 in Memory 1 Address: 0x000001C69CC30000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30750	A:352	I:1872	T[128.000000 B]	F:1999	S:0
+	At the end of memory by merging with the adjacent gap on the left increased the space.
+	1 gap(s) found with a fragmentation of 1.359375 KB.
+	At the end of the Memory there are free(s) 128.000000 B.
+	And 2 block(s) out of a total of 22 block(s) present in the system.
+
+MIGRATE BLOCK: from Memory 3 to Memory 1.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC50670	A:1520	I:1648	T[96.0 B]	F:1743	S:1744
+
+FILL GAP: the 96.000000 B block goes into the 128.000000 B gap.
+
+	ENTER BLOCK: in Memory 1 Address 0x000001C69CC30000.
+	The gap was not eliminated but was reduced to 32.000000 B after the entry.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30080	A:80	I:128	T[96.000000 B]	F:223	S:256
+	1 gap(s) found with a fragmentation of 1.265625 KB.
+	At the end of the Memory there are free(s) 128.000000 B.
+	And 3 block(s) out of a total of 23 block(s) present in the system.
+
+DELETE BLOCK: Table Index 25 in Memory 3 Address: 0x000001C69CC50000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC50670	A:1520	I:1648	T[96.000000 B]	F:1743	S:1744
+	The block left a gap of 96.000000 B in the middle of 2 active blocks.
+	1 gap(s) found with a fragmentation of 96.000000 B.
+	At the end of the Memory there are free(s) 0.000000 B.
+	And 7 block(s) out of a total of 22 block(s) present in the system.
+
+MIGRATE BLOCK: from Memory 3 to Memory 1.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC50590	A:1296	I:1424	T[96.0 B]	F:1519	S:1520
+
+FILL GAP: 96.000000 B block could not fit into 32.000000 B gap.
+
+DEFRAGMENT: 32.000000 B gap in Memory 1 Address: 0x000001C69CC30000
+
+	[Previous block]
+	
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30080	A:80	I:128	T[96.000000 B]	F:223	S:256
+
+	[Current block]
+	
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30100	A:128	I:256	T[96.000000 B]	F:351	S:352
+
+	[Next block]
+	
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30160	A:256	I:352	T[128.000000 B]	F:479	S:0
+
+	[THE GAP PERSISTS AND HAS SHIFTED TO THE RIGHT OF THE MEMORY]
+
+
+	[Previous block]
+	
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30080	A:80	I:128	T[96.000000 B]	F:223	S:224
+	Current block after defragmentation.
+	
+	BLOCK STATISTICS:
+	Address 0x000001C69CC300E0	A:128	I:224	T[96.000000 B]	F:319	S:352
+
+	[Next block]
+	
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30160	A:224	I:352	T[128.000000 B]	F:479	S:0
+	1 gap(s) found with a fragmentation of 1.265625 KB.
+	At the end of the Memory there are free(s) 128.000000 B.
+	And 3 block(s) out of a total of 22 block(s) present in the system.
+
+ENTER BLOCK: in Memory 1 Address: 0x000001C69CC30000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30750	A:352	I:1872	T[96.000000 B]	F:1967	S:0
+	1 gap(s) found with a fragmentation of 1.265625 KB.
+	At the end of the Memory there are free(s) 32.000000 B.
+	And 4 block(s) out of a total of 23 block(s) present in the system.
+
+DELETE BLOCK: Table Index 23 in Memory 3 Address: 0x000001C69CC50000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC50590	A:1296	I:1424	T[96.000000 B]	F:1519	S:1520
+	The block left a gap of 96.000000 B in the middle of 2 active blocks.
+	2 gap(s) found with a fragmentation of 192.000000 B.
+	At the end of the Memory there are free(s) 0.000000 B.
+	And 6 block(s) out of a total of 22 block(s) present in the system.
+
+---------------------------------------
+THE MIGRATION WAS CARRIED OUT CORRECTLY
+---------------------------------------
+
+---------------------------------------
+THE MIGRATION WAS CARRIED OUT CORRECTLY
+---------------------------------------
+
+DELETE BLOCK: Table Index 7 in Memory 3 Address: 0x000001C69CC50000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC50050	A:0	I:80	T[1.062500 KB]	F:1167	S:1168
+	The block left a gap of 1.062500 KB in the middle of 2 active blocks.
+	3 gap(s) found with a fragmentation of 1.250000 KB.
+	At the end of the Memory there are free(s) 0.000000 B.
+	And 5 block(s) out of a total of 21 block(s) present in the system.
+
+DELETE BLOCK: Table Index 9 in Memory 1 Address: 0x000001C69CC30000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC300E0	A:128	I:224	T[96.000000 B]	F:319	S:352
+	The adjacent gap on the right merged into a larger one of 128.000000 B.
+	1 gap(s) found with a fragmentation of 1.359375 KB.
+	At the end of the Memory there are free(s) 32.000000 B.
+	And 3 block(s) out of a total of 20 block(s) present in the system.
+
+DELETE BLOCK: Table Index 11 in Memory 2 Address: 0x000001C69CC40000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC40730	A:1712	I:1840	T[128.000000 B]	F:1967	S:0
+	At the end of memory by merging with the adjacent gap on the left increased the space.
+	2 gap(s) found with a fragmentation of 1.281250 KB.
+	At the end of the Memory there are free(s) 160.000000 B.
+	And 3 block(s) out of a total of 19 block(s) present in the system.
+
+DELETE BLOCK: Table Index 13 in Memory 5 Address: 0x000001C69CC70000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC70050	A:0	I:80	T[1.062500 KB]	F:1167	S:1168
+	The block left a gap of 1.062500 KB in the middle of 2 active blocks.
+	1 gap(s) found with a fragmentation of 1.062500 KB.
+	At the end of the Memory there are free(s) 320.000000 B.
+	And 4 block(s) out of a total of 18 block(s) present in the system.
+
+DELETE BLOCK: Table Index 15 in Memory 2 Address: 0x000001C69CC40000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC404F0	A:0	I:1264	T[96.000000 B]	F:1359	S:1360
+	The adjacent gap on the left merged into a larger one of 1.250000 KB.
+	2 gap(s) found with a fragmentation of 1.375000 KB.
+	At the end of the Memory there are free(s) 160.000000 B.
+	And 2 block(s) out of a total of 17 block(s) present in the system.
+
+DELETE BLOCK: Table Index 17 in Memory 2 Address: 0x000001C69CC40000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC40550	A:0	I:1360	T[128.000000 B]	F:1487	S:1712
+	The gaps adjacent to both sides merged into one larger one of 1.593750 KB.
+	1 gap(s) found with a fragmentation of 1.500000 KB.
+	At the end of the Memory there are free(s) 160.000000 B.
+	And 1 block(s) out of a total of 16 block(s) present in the system.
+
+DELETE BLOCK: Table Index 19 in Memory 8 Address: 0x000001C69CCA0000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CCA0050	A:0	I:80	T[1.062500 KB]	F:1167	S:0
+	At the end of memory increased the space.
+	0 gap(s) found with a fragmentation of 0.000000 B.
+	At the end of the Memory there are free(s) 0.000000 B.
+	And 0 block(s) out of a total of 15 block(s) present in the system.
+
+ATTENTION: Memory 8 has 2 chance(s) left before being deleted.
+
+DELETE BLOCK: Table Index 21 in Memory 2 Address: 0x000001C69CC40000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC406B0	A:0	I:1712	T[96.000000 B]	F:1807	S:0
+	At the end of memory by merging with the adjacent gap on the left increased the space.
+	0 gap(s) found with a fragmentation of 0.000000 B.
+	At the end of the Memory there are free(s) 0.000000 B.
+	And 0 block(s) out of a total of 14 block(s) present in the system.
+
+ATTENTION: Memory 2 has 2 chance(s) left before being deleted.
+
+ATTENTION: Memory 8 has 1 chance(s) left before being deleted.
+
+DELETE BLOCK: Table Index 27 in Memory 4 Address: 0x000001C69CC60000.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC60050	A:0	I:80	T[136.000000 B]	F:215	S:0
+	At the end of memory increased the space.
+	0 gap(s) found with a fragmentation of 0.000000 B.
+	At the end of the Memory there are free(s) 0.000000 B.
+	And 0 block(s) out of a total of 13 block(s) present in the system.
+
+ATTENTION: Memory 2 has 1 chance(s) left before being deleted.
+
+ATTENTION: Memory 4 has 2 chance(s) left before being deleted.
+
+ATTENTION: Memory 8 has 0 chance(s) left before being deleted.
+
+-------------------------------
+THE MEMORY WAS COMPLETE DELETED
+--------------------------------
+
+------------------
+SHOW MEMORY STATUS
+------------------n
+
+ADDRESS BLOCKS: 	[0x000001C69CC30160]	[0x000001C69CC30080]	[0x000001C69CC50490]	[0x000001C69CC30750]	[0x000001C69CC50510]	[0x000001C69CC505F0]	[0x000001C69CC506D0]	[0x000001C69CC50750]	[0x000001C69CC70490]	[0x000001C69CC70510]	[0x000001C69CC70590]	[0x000001C69CC70610]	[0x000001C69CC80050]
+
+GAP ADDRESS: 	[0x000001C69CC505F0]	[0x000001C69CC70000]	[0x000001C69CC50510]	[0x000001C69CC30080]	[0x000001C69CC50000]
+
+	BLOCK STATISTICS:
+	Table index 0 in Memory 1 Address 0x000001C69CC30160.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30160	A:128	I:352	T[128.000000 B]	F:479	S:1872
+
+		T[128] "30" {  [0.100][0.200][0.300][0.400][0.500][0.600][0.700][0.800]   }
+
+	BLOCK STATISTICS:
+	Table index 1 in Memory 1 Address 0x000001C69CC30080.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30080	A:80	I:128	T[96.000000 B]	F:223	S:352
+
+		T[96] "27" {  [0][1][2][3][4][5][6][7]   }
+
+	BLOCK STATISTICS:
+	Table index 2 in Memory 3 Address 0x000001C69CC50490.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC50490	A:0	I:1168	T[128.000000 B]	F:1295	S:1296
+
+		T[128] "31" {  [0.100][0.200][0.300][0.400][0.500][0.600][0.700][0.800]   }
+
+	BLOCK STATISTICS:
+	Table index 3 in Memory 1 Address 0x000001C69CC30750.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC30750	A:352	I:1872	T[96.000000 B]	F:1967	S:0
+
+		T[96] "24" {  [0][1][2][3][4][5][6][7]   }
+
+	BLOCK STATISTICS:
+	Table index 4 in Memory 3 Address 0x000001C69CC50510.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC50510	A:1168	I:1296	T[128.000000 B]	F:1423	S:1520
+
+		T[128] "32" {  [0.100][0.200][0.300][0.400][0.500][0.600][0.700][0.800]   }
+
+	BLOCK STATISTICS:
+	Table index 6 in Memory 3 Address 0x000001C69CC505F0.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC505F0	A:1296	I:1520	T[128.000000 B]	F:1647	S:1744
+
+		T[128] "33" {  [0.100][0.200][0.300][0.400][0.500][0.600][0.700][0.800]   }
+
+	BLOCK STATISTICS:
+	Table index 8 in Memory 3 Address 0x000001C69CC506D0.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC506D0	A:1520	I:1744	T[128.000000 B]	F:1871	S:1872
+
+		T[128] "34" {  [0.100][0.200][0.300][0.400][0.500][0.600][0.700][0.800]   }
+
+	BLOCK STATISTICS:
+	Table index 10 in Memory 3 Address 0x000001C69CC50750.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC50750	A:1744	I:1872	T[128.000000 B]	F:1999	S:0
+
+		T[128] "35" {  [0.100][0.200][0.300][0.400][0.500][0.600][0.700][0.800]   }
+
+	BLOCK STATISTICS:
+	Table index 12 in Memory 5 Address 0x000001C69CC70490.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC70490	A:0	I:1168	T[128.000000 B]	F:1295	S:1296
+
+		T[128] "36" {  [0.100][0.200][0.300][0.400][0.500][0.600][0.700][0.800]   }
+
+	BLOCK STATISTICS:
+	Table index 14 in Memory 5 Address 0x000001C69CC70510.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC70510	A:1168	I:1296	T[128.000000 B]	F:1423	S:1424
+
+		T[128] "37" {  [0.100][0.200][0.300][0.400][0.500][0.600][0.700][0.800]   }
+
+	BLOCK STATISTICS:
+	Table index 16 in Memory 5 Address 0x000001C69CC70590.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC70590	A:1296	I:1424	T[128.000000 B]	F:1551	S:1552
+
+		T[128] "38" {  [0.100][0.200][0.300][0.400][0.500][0.600][0.700][0.800]   }
+
+	BLOCK STATISTICS:
+	Table index 18 in Memory 5 Address 0x000001C69CC70610.
+
+	BLOCK STATISTICS:
+	Address 0x000001C69CC70610	A:1424	I:1552	T[128.000000 B]	F:1679	S:0
+
+		T[128] "39" {  [0.100][0.200][0.300][0.400][0.500][0.600][0.700][0.800]   }
+
+
+The following steps are then taken to delete: StressTest.
+With an initial Memory set to 1536 bytes.
+And a total of 8 Memories created by the system.
+An initial configuration of 12.000000 KB is recommended for a single Memory.
+
+The index table 3 of 1.031250 KB was stored inMemory 6 Address 0x000001C69CC80000.
+
+DELETE MEMORY 6:
+
+	1 blocks entered of 1.031250 KB per block.
+	Space used of: 55.0 
+
+DELETE MEMORY 5:
+
+	4 blocks entered of 128.000000 B per block.
+	Space used of: 26.6 
+
+DELETE MEMORY 4:
+
+	0 blocks entered of 0.000000 B per block.
+	Space used of: 0.0 
+
+DELETE MEMORY 3:
+
+	5 blocks entered of 128.000000 B per block.
+	Space used of: 33.3 
+
+DELETE MEMORY 2:
+
+	0 blocks entered of 0.000000 B per block.
+	Space used of: 0.0 
+
+DELETE MEMORY 1:
+
+	3 blocks entered of 165.333328 B per block.
+	Space used of: 25.8 
+
+---------------------------------------
+ALL MEMORIES HAVE BEEN PROPERLY DELETED
+---------------------------------------

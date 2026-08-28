@@ -1,0 +1,17 @@
+# Visual Studio / MSVC temporales
+.vs/
+*.obj
+*.pdb
+*.ilk
+*.user
+*.aps
+*.pch
+*.vsidx
+Build/
+x64/
+Debug/
+Release/
+
+# Archivos de sistema
+[D-d]esktop.ini
+Thumbs.db
