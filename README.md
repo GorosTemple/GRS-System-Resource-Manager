@@ -101,7 +101,7 @@ An inspection of the binary using `dumpbin /summary` reveals that the **actual r
 If you wish to use GRS in a commercial project or require a custom implementation, feel free to contact me:
 
 * **Email:** [marcos.gorostegui@hotmail.com](mailto:marcos.gorostegui@hotmail.com)
-* * **LinkedIn:** [linkedin.com/in/marcos-eugenio-gorostegui-929189432](https://www.linkedin.com/in/marcos-eugenio-gorostegui-929189432/)
+* **LinkedIn:** [linkedin.com/in/marcos-eugenio-gorostegui-929189432](https://www.linkedin.com/in/marcos-eugenio-gorostegui-929189432/)
 
 ### Support the Developer
 
