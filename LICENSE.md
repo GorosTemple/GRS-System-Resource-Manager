@@ -1,10 +1,8 @@
-===============================================
 NON-COMMERCIAL USE AND EVALUATION LICENSE TERMS
-===============================================
 
 Product: GRS v1.0 - Gestor de Recursos del Sistema
 Author: Marcos Eugenio Gorostegui
-Copyright: © 2026 Marcos Eugenio Gorostegui. All rights reserved.
+Copyright: Â© 2026 Marcos Eugenio Gorostegui. All rights reserved.
 
 Permission is hereby granted to any person who obtains a copy of this software (header files .h/.hpp and binary files .lib) for use solely for EVALUATION, TESTING, AND NON-COMMERCIAL USE.
 
