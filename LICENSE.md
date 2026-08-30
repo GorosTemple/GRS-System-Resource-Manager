@@ -1,4 +1,5 @@
 NON-COMMERCIAL USE AND EVALUATION LICENSE TERMS
+===============================================
 
 Product: GRS v1.0 - Gestor de Recursos del Sistema
 Author: Marcos Eugenio Gorostegui
