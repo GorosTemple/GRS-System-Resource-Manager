@@ -5,6 +5,9 @@ This component is a low-level, data-type agnostic dynamic memory manager. It is 
 
 ---
 
+## Quick Integration & API Preview
+
+```cpp
 // --- Quick Integration & API Preview (from main.cpp) ---
 #include "../include/GRSInterface.h"
 #pragma comment(lib, "../lib/GRSWindows64.lib")
@@ -29,7 +32,7 @@ TRANSFORM_COMPONENT TransforComponent = { };
 GRSInterface.Package(333, "TransforComponent", {TransforComponent});
 
 // 4. Retrieve Pointer, Modify Data & Print it
-TRANSFORM_COMPONENT* transformDir = reinterpret_cast<TRANSFORM_COMPONENT*>(GRSInterface.GetValue(333));
+TRANSFORM_COMPONENT*transformDir = reinterpret_cast<TRANSFORM_COMPONENT*>(GRSInterface.GetValue(333));
 reinterpret_cast<TRANSFORM_COMPONENT*>(transformDir)->SetRot(30.0f, 60.0f, 90.0f);
 GRSInterface.FormattedOutput("\n%1f\n", reinterpret_cast<TRANSFORM_COMPONENT*>(transformDir)->GetRotY( ));
 
@@ -39,7 +42,6 @@ GRSInterface.Migrate( );
 
 // 6. Cleanup Memory
 GRSInterface.DeleteMemory();
-```[cite: 4]
 
 ---
 
