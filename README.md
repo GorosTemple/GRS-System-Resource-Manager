@@ -5,6 +5,44 @@ This component is a low-level, data-type agnostic dynamic memory manager. It is 
 
 ---
 
+// --- Quick Integration & API Preview (from main.cpp) ---
+#include "../include/GRSInterface.h"
+#pragma comment(lib, "../lib/GRSWindows64.lib")
+#include "../include/GRSDependencies.h"
+#pragma comment(lib, "../lib/GRSDependencies.lib")
+
+// 1. Create Instance & Inject Dependencies
+GRS_INTERFACE GRSInterface;
+GRSInterface.CrateInstance();
+
+GRSInterface.DependencyInjection(
+    GRS_DEPENDENCIES::AllocateMemory(WINDOWS_ALLOCATOR),
+    GRS_DEPENDENCIES::SetOutputType(WINDOWS_OUTPUT)
+);
+
+// 2. Active Logs & Initial Pool Configuration
+GRSInterface.EnableLogs(true, true, "Log_StressTest_With_Limit.txt");
+GRSInterface.InitialConfiguration(10, 1.5, "kB", "StressTest");
+
+// 3. Package Custom Component into Memory
+TRANSFORM_COMPONENT TransforComponent = { };
+GRSInterface.Package(333, "TransforComponent", {TransforComponent});
+
+// 4. Retrieve Pointer, Modify Data & Print it
+TRANSFORM_COMPONENT* transformDir = reinterpret_cast<TRANSFORM_COMPONENT*>(GRSInterface.GetValue(333));
+reinterpret_cast<TRANSFORM_COMPONENT*>(transformDir)->SetRot(30.0f, 60.0f, 90.0f);
+GRSInterface.FormattedOutput("\n%1f\n", reinterpret_cast<TRANSFORM_COMPONENT*>(transformDir)->GetRotY( ));
+
+// 5. Defragment or Migrate or Both during IDLE Cycles
+GRSInterface.Defragment();
+GRSInterface.Migrate( );
+
+// 6. Cleanup Memory
+GRSInterface.DeleteMemory();
+```[cite: 4]
+
+---
+
 ## Initial Configuration and Optimal Lifecycle
 
 When instantiating the manager, the developer defines the base parameters according to their application requirements:
