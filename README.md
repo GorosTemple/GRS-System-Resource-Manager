@@ -28,8 +28,8 @@ GRSInterface.EnableLogs(true, true, "Log_StressTest_With_Limit.txt");
 GRSInterface.InitialConfiguration(10, 1.5, "kB", "StressTest");
 
 // 3. Package Custom Component into Memory
-TRANSFORM_COMPONENT TransforComponent = { };
-GRSInterface.Package(333, "TransforComponent", {TransforComponent});
+TRANSFORM_COMPONENT TransformComponent = { };
+GRSInterface.Package(333, "TransformComponent", {TransformComponent});
 
 // 4. Retrieve Pointer, Modify Data & Print it
 TRANSFORM_COMPONENT*transformDir = reinterpret_cast<TRANSFORM_COMPONENT*>(GRSInterface.GetValue(333));
