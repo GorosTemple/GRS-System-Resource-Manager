@@ -1,5 +1,5 @@
 // ================================================================================================
-// Copyright © 2026 Marcos Eugenio Gorostegui
+// Copyright Â© 2026 Marcos Eugenio Gorostegui
 // Non-Commercial Use and Evaluation License - All rights reserved.
 //
 // The header code and associated binary files are the exclusive property of the author.
@@ -121,12 +121,12 @@ int main(void)
     GRSInterface.FormattedOutput("\n\n");
 
     //  ANY TYPE AND ANY SIZE...
-    TRANSFORM_COMPONENT TransforComponent = { };
+    TRANSFORM_COMPONENT TransformComponent = { };
     //GRSInterface.Reserve<TRANSFORM_COMPONENT, 1>(333);
-    GRSInterface.Package(333, "TransforComponent", {TransforComponent});
+    GRSInterface.Package(333, "TransformComponent", {TransformComponent});
     TRANSFORM_COMPONENT*transformDir = reinterpret_cast<TRANSFORM_COMPONENT*>(GRSInterface.GetValue(333));
     /*  ONLY IF THE RESERVE METHOD HAS BEEN USED
-    transformDir[0] = TransforComponent;//*/
+    transformDir[0] = TransformComponent;//*/
     reinterpret_cast<TRANSFORM_COMPONENT*>(transformDir)->SetRot(30.0f, 60.0f, 90.0f);
     GRSInterface.FormattedOutput("\n%1f\n", reinterpret_cast<TRANSFORM_COMPONENT*>(transformDir)->GetRotY( ));
 
@@ -158,7 +158,7 @@ int main(void)
             GRSInterface.FormattedOutput("[%u] ", dataAddress[i]);
         }   GRSInterface.FormattedOutput("\n");
 
-        //  OR DO IT DIRECTLY... DON´T FORGET WHITH SPACE YOU HAD RESERVED
+        //  OR DO IT DIRECTLY... DONÂ´T FORGET WHITH SPACE YOU HAD RESERVED
         unsigned int recordValueCount = GRSInterface.GetRecordValueCount(666);
         for(unsigned int i = 0; i < recordValueCount; i++)
         {
